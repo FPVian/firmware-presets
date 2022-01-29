@@ -19,6 +19,10 @@
 #$ INCLUDE: presets/4.3/rc_link/defaults.txt
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): RC Link FULL RESET
+#$ INCLUDE: presets/4.3/rc_link/reset_to_defaults.txt
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): RC Smoothing
 #$ INCLUDE: presets/4.3/rc_smoothing/defaults.txt
 #$ OPTION END

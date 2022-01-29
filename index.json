@@ -578,7 +578,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_defaults.txt",
-      "hash": "2251893fe6ebd8da6dc3035c87709494a07635e831f15b12ac55524a3f8c22d9",
+      "hash": "3b7ed09837afdbe67b4ddd219d219a596444aab9e2b0d226801c1eecd99d9bf4",
       "title": "Defaults",
       "firmware_version": [
         "4.3"
@@ -742,6 +742,25 @@
       ],
       "author": "FPVian",
       "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/reset_to_defaults.txt",
+      "hash": "7b3af232cd733f80f4ad5b53d82ec25a3321d4a067bfe3374ce888d6b40ca85e",
+      "title": "Reset ALL RC link related settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "rc link",
+        "rc_link"
+      ],
+      "author": "Betaflight",
+      "priority": 0,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/rc_link/TBS_freestyle.txt",
