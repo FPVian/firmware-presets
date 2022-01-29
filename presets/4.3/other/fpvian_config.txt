@@ -1,0 +1,23 @@
+#$ TITLE: Config
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: config
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: Check Motor Poles
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Set up Name, FC Alignment, Ports, and Motors
+#$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
+
+
+#$ OPTION BEGIN (UNCHECKED): Freestyle/Racing
+#$ INCLUDE: presets/4.3/other/fpvian_config_freestyle_racing.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Long Range
+#$ INCLUDE: presets/4.3/other/fpvian_config_long_range.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Whoop
+#$ INCLUDE: presets/4.3/other/fpvian_config_whoop.txt
+#$ OPTION END

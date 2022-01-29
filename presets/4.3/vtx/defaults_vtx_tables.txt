@@ -6,6 +6,7 @@
 #$ AUTHOR: Betaflight
 #$ DESCRIPTION: Resets only the VTX table back to 4.3 Defaults
 #$ DESCRIPTION: Only the checked settings will be reset
+#$ HIDDEN: true
 
 # reset VTXtable
 

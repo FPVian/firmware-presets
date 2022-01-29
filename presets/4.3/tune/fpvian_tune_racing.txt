@@ -1,0 +1,30 @@
+#$ TITLE: FPVian Racing Tune
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, Tune, Racing
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: FPVian Community Preset for Tuning
+#$ DISCUSSION: Add PR URL here
+#$ HIDDEN: true
+
+#try increasing anti gravity to 5.5
+#test throttle boost
+#set gyro_notch2_hz = 215
+#set gyro_notch2_cutoff = 190
+
+#START RACING PRESETS
+
+
+set dyn_idle_min_rpm = 25
+set tpa_breakpoint = 1750
+
+# PIDS
+set vbat_sag_compensation = 100
+set anti_gravity_gain = 4200
+set iterm_relax_cutoff = 20
+set throttle_boost = 0
+
+set simplified_dmax_gain = 0
+set simplified_feedforward_gain = 150
+simplified_tuning apply

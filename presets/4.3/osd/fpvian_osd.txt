@@ -1,0 +1,26 @@
+#$ TITLE: OSD
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: OSD
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: DJI - Send LQ on Channel 12
+#$ DESCRIPTION: HDZero - set displayport_msp_serial = 0 for UART1
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+
+#$ OPTION BEGIN (UNCHECKED): DJI: Freestyle
+#$ INCLUDE: presets/4.3/osd/fpvian_osd_dji.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DJI: Long Range
+#$ INCLUDE: presets/4.3/osd/fpvian_osd_dji_long_range.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Analog
+#$ INCLUDE: presets/4.3/osd/fpvian_osd_analog.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): HD Zero
+#$ INCLUDE: presets/4.3/osd/fpvian_osd_hdzero.txt
+#$ OPTION END

@@ -1,0 +1,30 @@
+#$ TITLE: FPVian Long Range Tune
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, Tune, Long Range
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: FPVian Community Preset for Tuning
+#$ DISCUSSION: Add PR URL here
+#$ HIDDEN: true
+
+
+#START LONG RANGE PRESETS
+
+
+set dyn_idle_min_rpm = 35
+
+# PIDS
+set vbat_sag_compensation = 100
+set anti_gravity_gain = 4200
+set iterm_relax_cutoff = 10
+set throttle_boost = 0
+
+simplified_master_multiplier = 160
+simplified_pi_gain = 80
+simplified_dmax_gain = 0
+set simplified_pitch_pi_gain = 105
+simplified_tuning apply
+
+
+

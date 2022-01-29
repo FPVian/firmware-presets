@@ -1,0 +1,48 @@
+#$ TITLE: Defaults
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: Tuning defaults not included in presets
+
+
+#$ OPTION BEGIN (UNCHECKED): Tune
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Filters
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): RC Link
+#$ INCLUDE: presets/4.3/rc_link/defaults.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): RC Smoothing
+#$ INCLUDE: presets/4.3/rc_smoothing/defaults.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Modes
+#$ INCLUDE: presets/4.3/modes/defaults.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Rates
+#$ INCLUDE: presets/4.3/rates/defaults.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): OSD
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): VTX
+#$ INCLUDE: presets/4.3/vtx/defaults.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): VTX Tables
+#$ INCLUDE: presets/4.3/vtx/defaults_vtx_tables.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): LEDs
+#$ INCLUDE: presets/4.3/leds/defaults.txt
+#$ OPTION END

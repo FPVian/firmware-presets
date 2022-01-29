@@ -6,6 +6,7 @@
 #$ AUTHOR: Betaflight
 #$ DESCRIPTION: Resets RC Smoothing settings to 4.3 defaults
 #$ PRIORITY: 0
+#$ HIDDEN: true
 
 # NOTE TO AUTHORS: Always include all of the lines below in your Preset, even if keeping some at default
 

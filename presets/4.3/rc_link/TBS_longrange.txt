@@ -10,6 +10,7 @@
 #$ INCLUDE_WARNING: misc/warnings/en/ADC.txt
 #$ INCLUDE: presets/4.3/rc_link/defaults.txt
 #$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/153
+#$ HIDDEN: true
 
 feature RX_SERIAL
 set serialrx_provider = CRSF

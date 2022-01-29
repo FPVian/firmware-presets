@@ -6,6 +6,7 @@
 #$ AUTHOR: Betaflight
 #$ DESCRIPTION: Resets LED settings to 4.3 defaults
 #$ DESCRIPTION: Options: LED, colour or mode_color resets.
+#$ HIDDEN: true
 
 # led designations
 

@@ -9,7 +9,7 @@
 #$ DESCRIPTION: WARNING: Tune authors must explicitly set these values to something other than default, if needed for the tune.
 #$ DESCRIPTION: DOES NOT reset rates, filters, rc_smoothing, and many other parameters.
 #$ PRIORITY: 0
-
+#$ HIDDEN: true
 
 # THE FOLLOWING PARAMETERS ARE CONTROLLED
 # ALL WILL BE RESET TO DEFAULTS WHEN THIS DEFAULT IS RUN

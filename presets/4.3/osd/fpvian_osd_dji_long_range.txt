@@ -1,0 +1,31 @@
+#$ TITLE: FPVian OSD DJI Long Range
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, OSD, DJI, Long, Range
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: FPVian Community Preset for OSD Configuration
+#$ DESCRIPTION: DJI - Send LQ on Channel 12
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ DISCUSSION: Add PR URL here
+#$ HIDDEN: true
+
+
+# START DJI LONG-RANGE PRESETS
+
+# LQ on Channel 12
+set rssi_channel = 12
+
+# OSD
+set osd_units = IMPERIAL
+set osd_rssi_pos = 14832
+set osd_current_pos = 14400
+set osd_mah_drawn_pos = 14824
+set osd_gps_speed_pos = 14368
+set osd_gps_lon_pos = 14353
+set osd_gps_lat_pos = 14349
+set osd_gps_sats_pos = 14351
+set osd_home_dir_pos = 14348
+set osd_home_dist_pos = 14343
+set osd_altitude_pos = 14336
+set osd_avg_cell_voltage_pos = 14828

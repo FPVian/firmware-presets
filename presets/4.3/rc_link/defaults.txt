@@ -6,6 +6,7 @@
 #$ AUTHOR: Betaflight
 #$ DESCRIPTION: Resets RC_LINK feedforward smoothing/jitter/averaging parameters.
 #$ PRIORITY: 0
+#$ HIDDEN: true
 
 set feedforward_averaging = OFF
 set feedforward_smooth_factor = 25

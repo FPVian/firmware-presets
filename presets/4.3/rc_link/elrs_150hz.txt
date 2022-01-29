@@ -8,6 +8,7 @@
 #$ DESCRIPTION: WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!
 #$ DESCRIPTION: WARNING: check that you are using a compatible version of EdgeTx or OpenTx!
 #$ DESCRIPTION: Sends single cell voltage back to the transmitter, unless you choose the whole pack option.
+#$ HIDDEN: true
 
 feature RX_SERIAL
 set serialrx_provider = CRSF

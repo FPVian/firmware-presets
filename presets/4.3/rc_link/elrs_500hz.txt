@@ -9,6 +9,7 @@
 #$ DESCRIPTION: WARNING: Use a compatible version of EdgeTx or OpenTx!
 #$ DESCRIPTION: If a log shows excessive noise in your feedforward trace, most likely there is a Tx firmware issue.
 #$ DESCRIPTION: Sends single cell voltage back to the transmitter, unless you choose the whole pack option.
+#$ HIDDEN: true
 
 feature RX_SERIAL
 set serialrx_provider = CRSF
