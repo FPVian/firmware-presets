@@ -6,12 +6,15 @@
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: 
 #$ INCLUDE: presets/4.3/modes/defaults.txt
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
 
 #START PRESETS
 
 rxfail 5 s 1900
 
+
+#$ OPTION_GROUP BEGIN: Choose One
 
 #$ OPTION BEGIN (UNCHECKED): Freestyle
 aux 0 0 1 900 1575 0 0
@@ -63,3 +66,5 @@ aux 4 28 1 1425 2100 0 0
 aux 5 35 3 1975 2100 0 0
 aux 6 49 2 1425 1575 0 0
 #$ OPTION END
+
+#$ OPTION_GROUP END

@@ -6,7 +6,10 @@
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: 
 #$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
+
+#$ OPTION_GROUP BEGIN: Choose One
 
 #$ OPTION BEGIN (UNCHECKED): Very Clean (Racing)
 #$ INCLUDE: presets/4.3/filters/fpvian_filters_very_clean.txt
@@ -23,6 +26,8 @@
 #$ OPTION BEGIN (UNCHECKED): Very Noisy (Long Range)
 #$ INCLUDE: presets/4.3/filters/fpvian_filters_very_noisy.txt
 #$ OPTION END
+
+#$ OPTION_GROUP END
 
 
 #$ OPTION BEGIN (UNCHECKED): Glide Gyro Notch

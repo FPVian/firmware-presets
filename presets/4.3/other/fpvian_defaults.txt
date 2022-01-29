@@ -5,6 +5,7 @@
 #$ KEYWORDS: defaults
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: Tuning defaults not included in presets
+#$ PRIORITY: 0
 
 
 #$ OPTION BEGIN (UNCHECKED): Tune

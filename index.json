@@ -211,7 +211,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf.txt",
-      "hash": "1e5140faff29781d8f45fa12ef0bb11d3533d214a3c13d40a03f4c12dc522809",
+      "hash": "8347b4ec6a6144a178e05ef3f80fb02616c188cdb1fd1328d2c22d525a2fd717",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"
@@ -223,7 +223,8 @@
         "quad"
       ],
       "author": "FPVian",
-      "priority": 1
+      "priority": 1,
+      "force_options_review": true
     },
     {
       "fullPath": "presets/4.3/filters/defaults.txt",
@@ -246,7 +247,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/fpvian_filters.txt",
-      "hash": "8a6e1de0e9a49cd13bcfdf30d69d39bea2f57300f4e9015bbdeece9abd312530",
+      "hash": "32185f86911b51f8de07e489e98feb303b99814b3f962343728b67f6cde4572d",
       "title": "Filters",
       "firmware_version": [
         "4.3"
@@ -257,6 +258,7 @@
         "Filters"
       ],
       "author": "FPVian",
+      "force_options_review": true,
       "priority": 100
     },
     {
@@ -349,7 +351,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/fpvian_leds.txt",
-      "hash": "ae27688ef0b97ac62951539947b7fd40d1f9d658643d3e80b4626781ee486756",
+      "hash": "f84772ae1be268094ea94e8e5f408f0b613bfaf4ee65a53b4297f68443504bbe",
       "title": "LEDS",
       "firmware_version": [
         "4.3"
@@ -360,7 +362,8 @@
         "LEDS"
       ],
       "author": "FPVian",
-      "priority": 0
+      "force_options_review": true,
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/modes/defaults.txt",
@@ -386,7 +389,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/fpvian_modes.txt",
-      "hash": "127d04e51b9858182d3ad6caccc700590186db8f034ce9c558a890768648d8c1",
+      "hash": "1b9670b670e30b3877f13197befbafef0914bf9831b6edb3d8cfbed862d229f8",
       "title": "Modes",
       "firmware_version": [
         "4.3"
@@ -397,6 +400,7 @@
         "Modes"
       ],
       "author": "FPVian",
+      "force_options_review": true,
       "priority": 0
     },
     {
@@ -578,7 +582,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_defaults.txt",
-      "hash": "3b7ed09837afdbe67b4ddd219d219a596444aab9e2b0d226801c1eecd99d9bf4",
+      "hash": "272f9ea4958c0d3151aef4adacdd2c0759eb92f6239532819e977f0de29f3ff1",
       "title": "Defaults",
       "firmware_version": [
         "4.3"
@@ -890,7 +894,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_basher_freestyle.txt",
-      "hash": "c7786d7b8072c5874c27e17c95233450d25831e590d67476f1eb633ed18e07ad",
+      "hash": "d5b35d284d8fcb26ced83c057b1f64a9ef118b00d919873c8209dd262566b6c8",
       "title": "Basher Freestyle 6S 5\" by FPVian",
       "firmware_version": [
         "4.3"
@@ -907,6 +911,7 @@
         "fpvian"
       ],
       "author": "FPVian",
+      "force_options_review": true,
       "hidden": true,
       "priority": 1000000000000
     },

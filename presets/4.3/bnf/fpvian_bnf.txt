@@ -6,7 +6,10 @@
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: Run this preset both before and after general configuration
 #$ PRIORITY: 1
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
+
+#$ OPTION_GROUP BEGIN: Choose One
 
 #$ OPTION BEGIN (UNCHECKED): Glide Black
 set name = Glide Black
@@ -229,3 +232,5 @@ resource MOTOR 2 B07
 resource MOTOR 3 B06
 resource MOTOR 4 B10
 #$ OPTION END
+
+#$ OPTION_GROUP END
