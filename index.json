@@ -211,7 +211,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf.txt",
-      "hash": "e5809068a422f99bfb890d64c36407b10378c73da304552407e7ce0f01ba03f9",
+      "hash": "1e5140faff29781d8f45fa12ef0bb11d3533d214a3c13d40a03f4c12dc522809",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"
@@ -223,7 +223,7 @@
         "quad"
       ],
       "author": "FPVian",
-      "priority": 0
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/filters/defaults.txt",
@@ -508,7 +508,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config.txt",
-      "hash": "27cdde1a6d1586e799984fc89070590a60948c04bcd92ddfb9c24938b48a3cf8",
+      "hash": "83202355bef73f8f36652024c1a614269ac068c6b3732ecfe39ff0284cd3d7ff",
       "title": "Config",
       "firmware_version": [
         "4.3"
@@ -519,7 +519,7 @@
         "config"
       ],
       "author": "FPVian",
-      "priority": 0
+      "priority": 2
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config_freestyle_racing.txt",
@@ -890,7 +890,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_basher_freestyle.txt",
-      "hash": "e11a86c61bcfe6ff08d9da43b07aa3c0763e2af2751684f9c40a26d7f53ed15a",
+      "hash": "c7786d7b8072c5874c27e17c95233450d25831e590d67476f1eb633ed18e07ad",
       "title": "Basher Freestyle 6S 5\" by FPVian",
       "firmware_version": [
         "4.3"
@@ -907,6 +907,7 @@
         "fpvian"
       ],
       "author": "FPVian",
+      "hidden": true,
       "priority": 1000000000000
     },
     {

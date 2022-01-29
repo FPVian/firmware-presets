@@ -5,6 +5,7 @@
 #$ KEYWORDS: bnf, quad
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: Run this preset both before and after general configuration
+#$ PRIORITY: 1
 
 
 #$ OPTION BEGIN (UNCHECKED): Glide Black

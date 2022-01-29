@@ -8,6 +8,7 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Set up Name, FC Alignment, Ports, and Motors
 #$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
+#$ PRIORITY: 2
 
 
 #$ OPTION BEGIN (UNCHECKED): Freestyle/Racing
