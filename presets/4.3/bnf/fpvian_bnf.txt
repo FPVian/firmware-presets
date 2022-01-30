@@ -5,7 +5,7 @@
 #$ KEYWORDS: bnf, quad
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: Run this preset both before and after general configuration
-#$ PRIORITY: 50
+#$ PRIORITY: 6
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
 

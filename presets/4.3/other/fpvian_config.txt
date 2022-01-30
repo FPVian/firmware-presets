@@ -9,6 +9,7 @@
 #$ DESCRIPTION: Set up Name, FC Alignment, Ports, and Motors
 #$ PRIORITY: 2
 #$ FORCE_OPTIONS_REVIEW: TRUE
+#$ PRIORITY: 5
 
 
 #$ OPTION_GROUP BEGIN: Flight Style (Choose One)

@@ -6,6 +6,7 @@
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: 
 #$ FORCE_OPTIONS_REVIEW: TRUE
+#$ PRIORITY: 3
 
 
 #$ OPTION_GROUP BEGIN: Noise Level (Choose One)

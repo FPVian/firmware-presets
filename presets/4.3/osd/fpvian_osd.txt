@@ -8,6 +8,7 @@
 #$ DESCRIPTION: HDZero - set displayport_msp_serial = 0 for UART1
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
+#$ PRIORITY: 3
 
 
 #$ OPTION_GROUP BEGIN: Video System (Choose One)

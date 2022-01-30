@@ -6,7 +6,7 @@
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: Check VTX power manually afterwards
 #$ INCLUDE: presets/4.3/vtx/defaults.txt
-#$ PRIORITY: 0
+#$ PRIORITY: 2
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
 

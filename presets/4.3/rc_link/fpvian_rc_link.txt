@@ -6,6 +6,7 @@
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: 
 #$ INCLUDE: presets/4.3/rc_link/defaults.txt
+#$ PRIORITY: 3
 
 
 #START PRESETS

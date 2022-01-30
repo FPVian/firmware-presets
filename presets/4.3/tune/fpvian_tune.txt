@@ -6,6 +6,7 @@
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: Adjust dynamic idle as needed afterwards
 #$ FORCE_OPTIONS_REVIEW: TRUE
+#$ PRIORITY: 4
 
 
 #START PRESETS
