@@ -5,9 +5,9 @@
 #$ KEYWORDS:  vtx, HDzero
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: Check VTX power manually afterwards
-#$ INCLUDE_DISCLAIMER: misc/disclaimer/en/vtxtable.txt
 #$ INCLUDE: presets/4.3/vtx/defaults.txt
-
+#$ PRIORITY: 0
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
 
 #START RACE 2 PRESETS
@@ -34,6 +34,8 @@ set vtx_freq = 5658
 set vtx_power = 3
 #$ OPTION END
 
+
+#$ OPTION_GROUP BEGIN: Set up Ports (Choose One)
 
 #$ OPTION BEGIN (UNCHECKED): use displayport on uart 1
 serial 0 1 115200 57600 0 115200
@@ -64,3 +66,5 @@ set displayport_msp_serial = 4
 serial 5 1 115200 57600 0 115200
 set displayport_msp_serial = 5
 #$ OPTION END
+
+#$ OPTION_GROUP END

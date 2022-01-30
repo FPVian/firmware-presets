@@ -7,7 +7,7 @@
 #$ DESCRIPTION: 
 #$ INCLUDE: presets/4.3/leds/defaults.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
-#$ PRIORITY: 1
+#$ PRIORITY: 0
 
 
 #START PRESETS

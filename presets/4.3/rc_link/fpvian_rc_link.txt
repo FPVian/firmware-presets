@@ -16,6 +16,8 @@ set deadband = 5
 set yaw_deadband = 5
 
 
+#$ OPTION_GROUP BEGIN: RC Link (Choose One)
+
 #$ OPTION BEGIN (CHECKED): Crossfire
 set serialrx_provider = CRSF
 set report_cell_voltage = on
@@ -25,3 +27,5 @@ set report_cell_voltage = on
 #$ OPTION BEGIN (UNCHECKED): D8
 set rx_spi_protocol = FRSKY_D
 #$ OPTION END
+
+#$ OPTION_GROUP END

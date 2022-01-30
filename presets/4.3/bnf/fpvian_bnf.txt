@@ -5,11 +5,11 @@
 #$ KEYWORDS: bnf, quad
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: Run this preset both before and after general configuration
-#$ PRIORITY: 1
+#$ PRIORITY: 50
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
 
-#$ OPTION_GROUP BEGIN: Choose One
+#$ OPTION_GROUP BEGIN: Quad Name (Choose One)
 
 #$ OPTION BEGIN (UNCHECKED): Glide Black
 set name = Glide Black

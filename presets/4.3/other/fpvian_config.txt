@@ -7,9 +7,11 @@
 #$ DESCRIPTION: Check Motor Poles
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Set up Name, FC Alignment, Ports, and Motors
-#$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
 #$ PRIORITY: 2
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
+
+#$ OPTION_GROUP BEGIN: Flight Style (Choose One)
 
 #$ OPTION BEGIN (UNCHECKED): Freestyle/Racing
 #$ INCLUDE: presets/4.3/other/fpvian_config_freestyle_racing.txt
@@ -22,3 +24,5 @@
 #$ OPTION BEGIN (UNCHECKED): Whoop
 #$ INCLUDE: presets/4.3/other/fpvian_config_whoop.txt
 #$ OPTION END
+
+#$ OPTION_GROUP END

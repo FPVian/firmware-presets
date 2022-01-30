@@ -6,10 +6,12 @@
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: 
 #$ INCLUDE: presets/4.3/rc_smoothing/defaults.txt
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
 
 #START PRESETS
 
+#$ OPTION_GROUP BEGIN: RC Link (Choose One)
 
 #$ OPTION BEGIN (UNCHECKED): CRSF 150hz locked
 set feedforward_jitter_factor = 13
@@ -37,3 +39,5 @@ set rc_smoothing_setpoint_cutoff = 15
 set rc_smoothing_feedforward_cutoff = 15
 set feedforward_jitter_factor = 16
 #$ OPTION END
+
+#$ OPTION_GROUP END

@@ -7,7 +7,10 @@
 #$ DESCRIPTION: DJI - Send LQ on Channel 12
 #$ DESCRIPTION: HDZero - set displayport_msp_serial = 0 for UART1
 #$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
+
+#$ OPTION_GROUP BEGIN: Video System (Choose One)
 
 #$ OPTION BEGIN (UNCHECKED): DJI: Freestyle
 #$ INCLUDE: presets/4.3/osd/fpvian_osd_dji.txt
@@ -24,3 +27,5 @@
 #$ OPTION BEGIN (UNCHECKED): HD Zero
 #$ INCLUDE: presets/4.3/osd/fpvian_osd_hdzero.txt
 #$ OPTION END
+
+#$ OPTION_GROUP END

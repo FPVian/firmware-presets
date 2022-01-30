@@ -14,7 +14,7 @@
 rxfail 5 s 1900
 
 
-#$ OPTION_GROUP BEGIN: Choose One
+#$ OPTION_GROUP BEGIN: Flight Style (Choose One)
 
 #$ OPTION BEGIN (UNCHECKED): Freestyle
 aux 0 0 1 900 1575 0 0

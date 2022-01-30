@@ -5,11 +5,10 @@
 #$ KEYWORDS: Filters
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: 
-#$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
 
-#$ OPTION_GROUP BEGIN: Choose One
+#$ OPTION_GROUP BEGIN: Noise Level (Choose One)
 
 #$ OPTION BEGIN (UNCHECKED): Very Clean (Racing)
 #$ INCLUDE: presets/4.3/filters/fpvian_filters_very_clean.txt
