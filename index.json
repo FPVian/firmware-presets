@@ -211,7 +211,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf.txt",
-      "hash": "dbf1b18b8b5809b0547b55ba8e956708c1ace7b4910492f837f6e27b8ff9aa29",
+      "hash": "f56874947d958a429d7cc42857d0360bfa06facdbab7cf90fb60d87fd3904f27",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"
@@ -223,7 +223,7 @@
         "quad"
       ],
       "author": "FPVian",
-      "priority": 50,
+      "priority": 6,
       "force_options_review": true
     },
     {
@@ -247,7 +247,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/fpvian_filters.txt",
-      "hash": "6573fc38a941e6968827bb646adb25bc243e3c589814656b39645bec25cfb5d0",
+      "hash": "1e4d44ec617bc7d869036bc202fad7872335dceb3640f5ade1d326cc90a031c6",
       "title": "Filters",
       "firmware_version": [
         "4.3"
@@ -259,7 +259,7 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 100
+      "priority": 3
     },
     {
       "fullPath": "presets/4.3/filters/fpvian_filters_clean.txt",
@@ -351,7 +351,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/fpvian_leds.txt",
-      "hash": "3c7efafe05b09878099212a853c2679b32894476afcb0d2e7a27d3019d418735",
+      "hash": "f84772ae1be268094ea94e8e5f408f0b613bfaf4ee65a53b4297f68443504bbe",
       "title": "LEDS",
       "firmware_version": [
         "4.3"
@@ -363,7 +363,7 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 0
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/modes/defaults.txt",
@@ -389,7 +389,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/fpvian_modes.txt",
-      "hash": "8de26052980c62a21362371df800b009a81859e03732deddd5ee33e23a90ea15",
+      "hash": "b31ca1d5558721c50766332e6e38980329cf5b0739c845f38e1339dd1594a7a0",
       "title": "Modes",
       "firmware_version": [
         "4.3"
@@ -401,7 +401,7 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 0
+      "priority": 3
     },
     {
       "fullPath": "presets/4.3/osd/defaults.txt",
@@ -423,7 +423,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd.txt",
-      "hash": "6bc5573c732f8e935f013f33ac8217448246e8dece937fae846e965df73f05ed",
+      "hash": "9b2aa259da07bfc9c5191142d764ec2c0532e46a7a36356574aa1af018307be6",
       "title": "OSD",
       "firmware_version": [
         "4.3"
@@ -435,7 +435,7 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 0
+      "priority": 3
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd_analog.txt",
@@ -513,7 +513,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config.txt",
-      "hash": "2a0f8c04f1e53fcf0fb55021607f2b974bb2c8d9b0acbaca044783eb09571e00",
+      "hash": "2b95ebe9fdeb0cde6cd82c2f2650742dcbfcbc2d37706c839fdf3d689df5ad30",
       "title": "Config",
       "firmware_version": [
         "4.3"
@@ -524,8 +524,8 @@
         "config"
       ],
       "author": "FPVian",
-      "priority": 2,
-      "force_options_review": true
+      "force_options_review": true,
+      "priority": 5
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config_freestyle_racing.txt",
@@ -617,7 +617,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/fpvian_rates.txt",
-      "hash": "0ce428d796c95db44ac31797d744a0535c2ee5da875679d71dc1a53690a2dd3e",
+      "hash": "8ac24beaad4e8651261cfccab416f9a4719dfce4b971021c0af745a307b2fb72",
       "title": "Rates",
       "firmware_version": [
         "4.3"
@@ -629,7 +629,7 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 10000
+      "priority": 3
     },
     {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
@@ -736,7 +736,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/fpvian_rc_link.txt",
-      "hash": "65cf77b6aaa49bc2e8c29e5d36dabfac33eea65e1411764b048552ea863879ed",
+      "hash": "f0f9b940656c5699b6d426328bc8c3023d539b22da08f0915282e320500d3059",
       "title": "RC Link",
       "firmware_version": [
         "4.3"
@@ -748,7 +748,7 @@
         "Link"
       ],
       "author": "FPVian",
-      "priority": 10000000000
+      "priority": 3
     },
     {
       "fullPath": "presets/4.3/rc_link/reset_to_defaults.txt",
@@ -860,7 +860,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/fpvian_rc_smoothing.txt",
-      "hash": "575ec0c7c78e25e75b2118432ee14cfd027d033c90509bef01f85b38fa0fde8c",
+      "hash": "61cdbb9e039462d7fe697ba59fffb15ad817c8b60148f73ed63de201399b3e4b",
       "title": "RC Smoothing",
       "firmware_version": [
         "4.3"
@@ -873,7 +873,7 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 100000000
+      "priority": 3
     },
     {
       "fullPath": "presets/4.3/tune/defaults.txt",
@@ -921,7 +921,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune.txt",
-      "hash": "c6085dfb81bf11b9f20d55dc5610b1a701260573edcba638c77881837a98f85f",
+      "hash": "e8de7d4be170663b04d6de288f3f7c8abd31a15ccefb8ce17d788f2bde733a78",
       "title": "Tune",
       "firmware_version": [
         "4.3"
@@ -933,7 +933,7 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 1000000000000
+      "priority": 4
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_freestyle.txt",
@@ -1066,7 +1066,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/fpvian_vtx_analog.txt",
-      "hash": "3e4782c0db72507811d7ed37e8a33f68bc66dff9a12c186d61124a83f874d169",
+      "hash": "6bddd1f65fda90b84f527e4f87b5ac523bd69534a3216b3f965d7b7d30a2c5e8",
       "title": "Analog VTX",
       "firmware_version": [
         "4.3"
@@ -1078,12 +1078,12 @@
         "analog"
       ],
       "author": "FPVian",
-      "priority": 0,
+      "priority": 2,
       "force_options_review": true
     },
     {
       "fullPath": "presets/4.3/vtx/fpvian_vtx_hdzero.txt",
-      "hash": "754f9ffcbadccf60042db06d736009c18312fbafbd377645a0fa5604b3d18e8e",
+      "hash": "c74a2666ead63cf6d36954bb2894096b5490001e8bca86041fb5ba92e3387ba6",
       "title": "HDZero VTX",
       "firmware_version": [
         "4.3"
@@ -1095,7 +1095,7 @@
         "HDzero"
       ],
       "author": "FPVian",
-      "priority": 0,
+      "priority": 2,
       "force_options_review": true
     }
   ]

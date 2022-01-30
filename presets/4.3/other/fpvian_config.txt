@@ -7,7 +7,6 @@
 #$ DESCRIPTION: Check Motor Poles
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Set up Name, FC Alignment, Ports, and Motors
-#$ PRIORITY: 2
 #$ FORCE_OPTIONS_REVIEW: TRUE
 #$ PRIORITY: 5
 
