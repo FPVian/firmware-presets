@@ -1,0 +1,29 @@
+#$ TITLE: FPVian OSD Analog
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, OSD, Analog
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: FPVian Community Preset for OSD Configuration
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ DISCUSSION: Add PR URL here
+#$ HIDDEN: true
+
+
+# START ANALOG PRESETS
+
+# OSD
+set osd_link_quality_pos = 14736
+set osd_warnings_pos = 14441
+set osd_avg_cell_voltage_pos = 14728
+set osd_flip_arrow_pos = 14734
+set osd_warn_core_temp = OFF
+set osd_stat_battery = ON
+set osd_stat_max_curr = OFF
+set osd_stat_used_mah = OFF
+set osd_stat_min_link_quality = ON
+
+
+# Add Display Name for Racing
+set display_name = FPVian
+set osd_display_name_pos = 14721

@@ -1,0 +1,36 @@
+#$ TITLE: FPVian OSD HDZero
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, OSD, HDZero
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: FPVian Community Preset for OSD Configuration
+#$ DESCRIPTION: set displayport_msp_serial = 0 for UART1
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ DISCUSSION: Add PR URL here
+#$ HIDDEN: true
+
+
+# START HDZERO PRESETS
+
+
+# OSD
+set osd_link_quality_pos = 14833
+set osd_warnings_pos = 14441
+set osd_avg_cell_voltage_pos = 14825
+set osd_flip_arrow_pos = 14831
+set osd_vbat_pos = 2551
+set osd_warn_core_temp = OFF
+set osd_stat_battery = ON
+set osd_stat_max_curr = OFF
+set osd_stat_used_mah = OFF
+set osd_stat_min_link_quality = ON
+set vcd_video_system = AUTO
+
+# Add display name for racing
+set display_name = FPVian
+set osd_display_name_pos = 2529
+
+
+# Canvas Mode Enable
+set osd_displayport_device = MSP
