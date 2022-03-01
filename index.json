@@ -694,7 +694,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/fpvian_rc_smoothing.txt",
-      "hash": "5ca900e59141b6a77e5c7f4542f65225721d4d50357d0ad8725192e9994322a5",
+      "hash": "487ec2705a8492f4c2ca1aa441da92416f991c77afbaca9cf25f2394e5e0ebca",
       "title": "RC Smoothing",
       "firmware_version": [
         "4.3"

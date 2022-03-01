@@ -17,7 +17,7 @@
 #$ OPTION BEGIN (UNCHECKED): ELRS 500hz Freestyle
 set feedforward_averaging = 3_POINT
 set feedforward_smooth_factor = 70
-set feedforward_jitter_factor = 8
+set feedforward_jitter_factor = 13
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): ELRS 500hz Racing
