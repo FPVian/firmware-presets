@@ -142,18 +142,12 @@
     ],
     "author": [
       "Betaflight",
-      "ctzsnooze",
-      "FPVian",
-      "sugarK"
+      "FPVian"
     ],
     "keywords": [
-      "150Hz",
-      "250Hz",
       "5 In",
       "5 Inch",
       "5\"",
-      "500Hz",
-      "50Hz",
       "actual",
       "adjustments",
       "Analog",
@@ -162,16 +156,11 @@
       "basher",
       "basic",
       "bnf",
-      "cfv2",
       "clear",
       "config",
-      "crossfire",
-      "CRSF",
       "default",
       "defaults",
       "DJI",
-      "ELRS",
-      "express",
       "feedforward",
       "ff",
       "filter",
@@ -180,10 +169,9 @@
       "freestyle",
       "HDZero",
       "leds",
-      "link",
+      "Link",
       "Long",
       "Long Range",
-      "longrange",
       "mode",
       "modes",
       "OSD",
@@ -192,7 +180,7 @@
       "Racing",
       "Range",
       "rates",
-      "rc",
+      "RC",
       "rc link",
       "rc smoothing",
       "rc_link",
@@ -200,8 +188,6 @@
       "reset",
       "Smoothing",
       "switch",
-      "TBS",
-      "tracer",
       "tune",
       "vtx",
       "vtxtable",
@@ -263,7 +249,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/fpvian_filters_clean.txt",
-      "hash": "cf6c32311198da6cb24d6583531bd9829c1cdcc32a06a987d89086b5d29be7d5",
+      "hash": "3aadc922426f11e37ba5c425670f42dfd07cb87956858d0e5debb7c523f8f55a",
       "title": "FPVian Filters Clean (Freestyle)",
       "firmware_version": [
         "4.3"
@@ -389,7 +375,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/fpvian_modes.txt",
-      "hash": "b31ca1d5558721c50766332e6e38980329cf5b0739c845f38e1339dd1594a7a0",
+      "hash": "845e2a44b1134ccef85b99bbf01706ef10af7ce56f913919f14960f6a4ccd7d0",
       "title": "Modes",
       "firmware_version": [
         "4.3"
@@ -457,7 +443,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd_dji.txt",
-      "hash": "190e4889bed4ab49d6748fcfac18a5a32452d56a316d476ec90a17c30eb92094",
+      "hash": "9effa7c6b85e743e1d09ba5853211c60a9aeff3565a394157a53d7fac7c86b49",
       "title": "FPVian OSD DJI",
       "firmware_version": [
         "4.3"
@@ -548,7 +534,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config_long_range.txt",
-      "hash": "18e4c442ee5a5011a2c8156df2fe2864196db6c817aedbfad9147b4b2703b94b",
+      "hash": "0b9cc1c78c4d8c95d0ebd860688111c2e3709411d70132025d019f045a2925b8",
       "title": "FPVian Config Long Range",
       "firmware_version": [
         "4.3"
@@ -653,90 +639,8 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/4.3/rc_link/elrs_150hz.txt",
-      "hash": "4be21412b1ca8dfa8241c15f0ae045813c433469d3fc9562f82f73a34e1a7386",
-      "title": "ExpressLRS 150Hz",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "OFFICIAL",
-      "keywords": [
-        "ELRS",
-        "rc",
-        "link",
-        "rc_link",
-        "150Hz",
-        "express"
-      ],
-      "author": "ctzsnooze",
-      "hidden": true,
-      "priority": 10000000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_link/elrs_250hz.txt",
-      "hash": "cd05d798cf5f5955710203103f84a18d341d327f3cff6d3267f9056ee3d04a76",
-      "title": "ExpressLRS 250Hz",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "OFFICIAL",
-      "keywords": [
-        "ELRS",
-        "rc",
-        "link",
-        "250Hz",
-        "express"
-      ],
-      "author": "ctzsnooze",
-      "hidden": true,
-      "priority": 10000000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_link/elrs_500hz.txt",
-      "hash": "e5b44bafb90f044c742df0f29d3c8d8ab9ef071d85f5af715413747e9a3e76c8",
-      "title": "ExpressLRS 500Hz",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "OFFICIAL",
-      "keywords": [
-        "ELRS",
-        "rc",
-        "link",
-        "500Hz",
-        "express"
-      ],
-      "author": "ctzsnooze",
-      "hidden": true,
-      "priority": 10000000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_link/elrs_50hz.txt",
-      "hash": "08f71106860147d9ea232832bc488d668a4fbe8c1c82fdcb6fbf4f5a8929d837",
-      "title": "ExpressLRS 50Hz",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "OFFICIAL",
-      "keywords": [
-        "ELRS",
-        "rc",
-        "link",
-        "rc_link",
-        "50Hz",
-        "express"
-      ],
-      "author": "ctzsnooze",
-      "hidden": true,
-      "priority": 10000000000
-    },
-    {
       "fullPath": "presets/4.3/rc_link/fpvian_rc_link.txt",
-      "hash": "f0f9b940656c5699b6d426328bc8c3023d539b22da08f0915282e320500d3059",
+      "hash": "0199cc5adbdb1d19daed1442d5b9c6b47cb1e91e2d63058ec73c0ba7ede68d02",
       "title": "RC Link",
       "firmware_version": [
         "4.3"
@@ -770,76 +674,6 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/4.3/rc_link/TBS_freestyle.txt",
-      "hash": "dac506ecf87d1f5025aa18e160e4dd87b161d31db68702a8fe88eefebf234125",
-      "title": "TBS Crossfire/Tracer freesyle",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "OFFICIAL",
-      "keywords": [
-        "rc link",
-        "tracer",
-        "TBS",
-        "cfv2",
-        "250Hz",
-        "crossfire",
-        "freestyle",
-        "150Hz",
-        "50Hz",
-        "CRSF"
-      ],
-      "author": "sugarK",
-      "hidden": true,
-      "priority": 10000000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_link/TBS_longrange.txt",
-      "hash": "b91d0ad7e1855debb432bf9fe622b90403f787cd6a69d2f40c0611e37d9d4f79",
-      "title": "TBS Crossfire longrange",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "OFFICIAL",
-      "keywords": [
-        "rc link",
-        "TBS",
-        "crossfire",
-        "longrange",
-        "50Hz",
-        "CRSF"
-      ],
-      "author": "sugarK",
-      "hidden": true,
-      "priority": 10000000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_link/TBS_race.txt",
-      "hash": "bf2ff7cb50069c0ed1f63fe0ed28ed348f41bf4a88ff94e052cdbb5680dbcac2",
-      "title": "TBS Crossfire/Tracer racing",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "OFFICIAL",
-      "keywords": [
-        "rc link",
-        "tracer",
-        "TBS",
-        "cfv2",
-        "250Hz",
-        "crossfire",
-        "racing",
-        "150Hz",
-        "CRSF"
-      ],
-      "author": "sugarK",
-      "hidden": true,
-      "priority": 10000000000
-    },
-    {
       "fullPath": "presets/4.3/rc_smoothing/defaults.txt",
       "hash": "3e0fc650203a58a0e57d43746efb40d89f1511a629e13428a02e05564d295f85",
       "title": "Default 4.3 RC smoothing settings",
@@ -860,7 +694,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/fpvian_rc_smoothing.txt",
-      "hash": "61cdbb9e039462d7fe697ba59fffb15ad817c8b60148f73ed63de201399b3e4b",
+      "hash": "5ca900e59141b6a77e5c7f4542f65225721d4d50357d0ad8725192e9994322a5",
       "title": "RC Smoothing",
       "firmware_version": [
         "4.3"
