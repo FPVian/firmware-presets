@@ -13,7 +13,7 @@
 
 # START DJI PRESETS
 
-# LQ on Channel 12
+# LQ on Channel 11, RSSI on 12
 set rssi_channel = 11
 
 # OSD
