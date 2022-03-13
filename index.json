@@ -375,7 +375,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/fpvian_modes.txt",
-      "hash": "f72c97a4d1497d0c8bc98e33a3fc1abd1247bfa327157ea436468f2b29a50871",
+      "hash": "b2e79cfc94b466aeb3448257bd88873a5fa22003e5eea7d174c79aae1edf1fc6",
       "title": "Modes",
       "firmware_version": [
         "4.3"
@@ -534,7 +534,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config_long_range.txt",
-      "hash": "0b9cc1c78c4d8c95d0ebd860688111c2e3709411d70132025d019f045a2925b8",
+      "hash": "562b73bb758c9f023e4d628707a23d0af7bff2e271ec3841da018f2b715cfa28",
       "title": "FPVian Config Long Range",
       "firmware_version": [
         "4.3"

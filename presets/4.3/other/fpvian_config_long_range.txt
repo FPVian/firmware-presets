@@ -35,6 +35,7 @@ set dshot_bidir = ON
 set small_angle = 180
 
 # feature
+feature -AIRMODE
 feature -LED_STRIP
 feature GPS
 feature TELEMETRY
