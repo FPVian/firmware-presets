@@ -4,6 +4,8 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: bnf, quad
 #$ AUTHOR: FPVian
+#$ DESCRIPTION: Check CLI comments for Wizard and Apex
+#$ DESCRIPTION:
 #$ DESCRIPTION: Run this preset both before and after general configuration
 #$ PRIORITY: 6
 #$ FORCE_OPTIONS_REVIEW: TRUE

@@ -197,7 +197,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf.txt",
-      "hash": "f56874947d958a429d7cc42857d0360bfa06facdbab7cf90fb60d87fd3904f27",
+      "hash": "ababed0beea397e64904a854554704ab1533331ba03a55133afdbac521ab62ce",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"
@@ -337,13 +337,13 @@
     },
     {
       "fullPath": "presets/4.3/leds/fpvian_leds.txt",
-      "hash": "f84772ae1be268094ea94e8e5f408f0b613bfaf4ee65a53b4297f68443504bbe",
+      "hash": "d556f29050cbe229a84220b134139e639eb408d5c71651dc5d69600a4f2a2d49",
       "title": "LEDS",
       "firmware_version": [
         "4.3"
       ],
       "category": "LEDS",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "LEDS"
       ],
@@ -375,19 +375,36 @@
     },
     {
       "fullPath": "presets/4.3/modes/fpvian_modes.txt",
-      "hash": "b2e79cfc94b466aeb3448257bd88873a5fa22003e5eea7d174c79aae1edf1fc6",
+      "hash": "9fa99a84d470661611b073a0970cc7a4b465f5a1cbf3c75eea2edff925e3fa0f",
       "title": "Modes",
       "firmware_version": [
         "4.3"
       ],
       "category": "MODES",
-      "status": "COMMUNITY",
+      "status": "OFFICIAL",
       "keywords": [
         "Modes"
       ],
       "author": "FPVian",
       "force_options_review": true,
       "priority": 3
+    },
+    {
+      "fullPath": "presets/4.3/modes/fpvian_modes_removed.txt",
+      "hash": "27ed5addc7c42e3b2e9dd5982620fc668bd3f747c92f0be1588e465d4faffcc4",
+      "title": "Modes",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Modes"
+      ],
+      "author": "FPVian",
+      "force_options_review": true,
+      "priority": 3,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/osd/defaults.txt",
@@ -409,13 +426,13 @@
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd.txt",
-      "hash": "9b2aa259da07bfc9c5191142d764ec2c0532e46a7a36356574aa1af018307be6",
+      "hash": "ec6fc1f083710f81fb2f9519cb3b660a935a237f4085d4487b4d26e7fe459906",
       "title": "OSD",
       "firmware_version": [
         "4.3"
       ],
       "category": "OSD",
-      "status": "COMMUNITY",
+      "status": "OFFICIAL",
       "keywords": [
         "OSD"
       ],
@@ -461,7 +478,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd_dji_long_range.txt",
-      "hash": "52ab1af2113ac208fb3086ee2270cb4f8d65b43af9d6639d91bc9cb105e830a7",
+      "hash": "c5a4846e45bdddae301c2bc20895e44369552212e027431a0bc9495ad1cab2ed",
       "title": "FPVian OSD DJI Long Range",
       "firmware_version": [
         "4.3"
@@ -499,13 +516,13 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config.txt",
-      "hash": "2b95ebe9fdeb0cde6cd82c2f2650742dcbfcbc2d37706c839fdf3d689df5ad30",
+      "hash": "c9f2e150595d5b5ffa6634d84ebec6fa1a7690c98534ff5419fcb168f15777de",
       "title": "Config",
       "firmware_version": [
         "4.3"
       ],
       "category": "OTHER",
-      "status": "COMMUNITY",
+      "status": "OFFICIAL",
       "keywords": [
         "config"
       ],
@@ -570,13 +587,13 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_defaults.txt",
-      "hash": "272f9ea4958c0d3151aef4adacdd2c0759eb92f6239532819e977f0de29f3ff1",
+      "hash": "0945c5a094127a59c14268594a00fbc5637ec92a6093f34696338e33a22421f5",
       "title": "Defaults",
       "firmware_version": [
         "4.3"
       ],
       "category": "OTHER",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "defaults"
       ],
@@ -603,13 +620,13 @@
     },
     {
       "fullPath": "presets/4.3/rates/fpvian_rates.txt",
-      "hash": "8ac24beaad4e8651261cfccab416f9a4719dfce4b971021c0af745a307b2fb72",
+      "hash": "3d9a90799e69be83b91ab0cf953be55e0d80c9a6fdadde74cdbc03a66fca4f51",
       "title": "Rates",
       "firmware_version": [
         "4.3"
       ],
       "category": "RATES",
-      "status": "COMMUNITY",
+      "status": "OFFICIAL",
       "keywords": [
         "Rates"
       ],
@@ -640,7 +657,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/fpvian_rc_link.txt",
-      "hash": "0199cc5adbdb1d19daed1442d5b9c6b47cb1e91e2d63058ec73c0ba7ede68d02",
+      "hash": "4b1df2d0d6a1a58b0c66f3a818bcae446951908e3193a4abb8df5c9a0d629b0f",
       "title": "RC Link",
       "firmware_version": [
         "4.3"
@@ -652,7 +669,25 @@
         "Link"
       ],
       "author": "FPVian",
+      "force_options_review": true,
       "priority": 3
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/fpvian_rc_link_removed.txt",
+      "hash": "f786da32a39a080e604a119bd80ace60a64b68989c1661d7a23d21cde80ad3b5",
+      "title": "RC Link",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RC",
+        "Link"
+      ],
+      "author": "FPVian",
+      "priority": 3,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/rc_link/reset_to_defaults.txt",
@@ -693,8 +728,8 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/4.3/rc_smoothing/fpvian_rc_smoothing.txt",
-      "hash": "487ec2705a8492f4c2ca1aa441da92416f991c77afbaca9cf25f2394e5e0ebca",
+      "fullPath": "presets/4.3/rc_smoothing/fpvian_rc_smoothing_removed.txt",
+      "hash": "fb2ca19fed1f7cbb1a223c28d2565da9e30e67b33061224fdf26b9aaacd69ebe",
       "title": "RC Smoothing",
       "firmware_version": [
         "4.3"
@@ -707,7 +742,8 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 3
+      "priority": 3,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/tune/defaults.txt",
@@ -732,13 +768,13 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_basher_freestyle.txt",
-      "hash": "d5b35d284d8fcb26ced83c057b1f64a9ef118b00d919873c8209dd262566b6c8",
+      "hash": "a0f4b09f6c4b62008eda68dc0aad73bff77e66cdf219b501ed2696b192704ea2",
       "title": "Basher Freestyle 6S 5\" by FPVian",
       "firmware_version": [
         "4.3"
       ],
       "category": "TUNE",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "basher",
         "freestyle",
@@ -900,13 +936,13 @@
     },
     {
       "fullPath": "presets/4.3/vtx/fpvian_vtx_analog.txt",
-      "hash": "6bddd1f65fda90b84f527e4f87b5ac523bd69534a3216b3f965d7b7d30a2c5e8",
+      "hash": "71503883b2bb33b27a42c4b8a784523e7fde2d082f388d33f842477ec4039ffd",
       "title": "Analog VTX",
       "firmware_version": [
         "4.3"
       ],
       "category": "VTX",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "vtx",
         "analog"
@@ -917,13 +953,13 @@
     },
     {
       "fullPath": "presets/4.3/vtx/fpvian_vtx_hdzero.txt",
-      "hash": "c74a2666ead63cf6d36954bb2894096b5490001e8bca86041fb5ba92e3387ba6",
+      "hash": "f80c98e6b9893a35559ff00e61197c5c84fe05e74b72341319d8a369ae9ca6d6",
       "title": "HDZero VTX",
       "firmware_version": [
         "4.3"
       ],
       "category": "VTX",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "vtx",
         "HDzero"

@@ -13,8 +13,8 @@
 
 # START DJI LONG-RANGE PRESETS
 
-# LQ on Channel 12
-set rssi_channel = 12
+# LQ on Channel 11, RSSI on 12
+set rssi_channel = 11
 
 # OSD
 set osd_units = IMPERIAL

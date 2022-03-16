@@ -1,0 +1,28 @@
+#$ TITLE: RC Link
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RC_LINK
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: RC, Link
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: 
+#$ INCLUDE: presets/4.3/rc_link/defaults.txt
+#$ PRIORITY: 3
+#$ HIDDEN: true
+
+
+#START PRESETS
+
+
+#$ OPTION_GROUP BEGIN: RC Link (Choose One)
+
+#$ OPTION BEGIN (UNCHECKED): Crossfire
+set serialrx_provider = CRSF
+set report_cell_voltage = on
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): D8
+set rx_spi_protocol = FRSKY_D
+#$ OPTION END
+
+#$ OPTION_GROUP END

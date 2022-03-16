@@ -1,7 +1,7 @@
 #$ TITLE: Analog VTX
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX
-#$ STATUS: COMMUNITY
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS:  vtx, analog
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: Check VTX power manually afterwards

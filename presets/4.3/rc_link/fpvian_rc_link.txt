@@ -6,6 +6,8 @@
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: 
 #$ INCLUDE: presets/4.3/rc_link/defaults.txt
+#$ INCLUDE: presets/4.3/rc_smoothing/defaults.txt
+#$ FORCE_OPTIONS_REVIEW: TRUE
 #$ PRIORITY: 3
 
 
@@ -16,22 +18,38 @@ set max_check = 2000
 set deadband = 5
 set yaw_deadband = 5
 
+#ELRS specific:
+set serialrx_provider = CRSF
+
 
 #$ OPTION_GROUP BEGIN: RC Link (Choose One)
 
-#$ OPTION BEGIN (CHECKED): ELRS
-set serialrx_provider = CRSF
+#$ OPTION BEGIN (UNCHECKED): 500hz Freestyle ELRS
+set feedforward_averaging = 3_POINT
+set feedforward_smooth_factor = 70
+set feedforward_jitter_factor = 13
 #$ OPTION END
 
-
-#$ OPTION BEGIN (UNCHECKED): Crossfire
-set serialrx_provider = CRSF
-set report_cell_voltage = on
+#$ OPTION BEGIN (UNCHECKED): 500hz Racing ELRS
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 4
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): 50hz ELRS
+set feedforward_averaging = OFF
+set feedforward_smooth_factor = 0
+set feedforward_jitter_factor = 25
+set feedforward_boost = 5
+#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): D8
-set rx_spi_protocol = FRSKY_D
+#$ OPTION BEGIN (UNCHECKED): Cinematic
+#set ff_interpolate_sp = AVERAGED_4
+set rc_smoothing_auto_factor = 90
+set rc_smoothing_auto_factor_throttle = 50
+set rc_smoothing_setpoint_cutoff = 15
+set rc_smoothing_feedforward_cutoff = 15
+set feedforward_jitter_factor = 16
 #$ OPTION END
 
 #$ OPTION_GROUP END
