@@ -222,11 +222,10 @@ set pinio_box = 0,255,255,255
 set ibata_scale = 1175
 set align_board_yaw = 180
 set gyro_1_align_yaw = 900
-set frsky_spi_tx_id = 36,137
-set frsky_spi_offset = -32
-set frsky_spi_bind_hop_data = 0,30,60,91,120,150,180,210,5,35,65,95,125,155,185,215,10,40,70,100,130,160,190,221,15,45,75,105,135,165,195,225,20,50,80,110,140,170,200,230,25,55,85,115,145,175,205,0,0,0
+# set frsky_spi_offset = -32
 set name = Moblite7
 # serial
+serial 0 64 115200 57600 0 115200
 serial 1 2048 115200 57600 0 115200
 #resource
 resource MOTOR 1 B08
