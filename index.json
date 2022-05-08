@@ -197,7 +197,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf.txt",
-      "hash": "ababed0beea397e64904a854554704ab1533331ba03a55133afdbac521ab62ce",
+      "hash": "76529ee2f600e4aac6a06336c38740cce288529a8c270ddd9896b5f6a54a2f61",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"
@@ -657,7 +657,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/fpvian_rc_link.txt",
-      "hash": "4b1df2d0d6a1a58b0c66f3a818bcae446951908e3193a4abb8df5c9a0d629b0f",
+      "hash": "377bbbc57364249f291ddc47c78bb50525effd0dc6c863841148928b8763ad6b",
       "title": "RC Link",
       "firmware_version": [
         "4.3"
