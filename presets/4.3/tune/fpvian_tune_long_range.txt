@@ -20,9 +20,9 @@ set anti_gravity_gain = 4200
 set iterm_relax_cutoff = 10
 set throttle_boost = 0
 
-simplified_master_multiplier = 160
-simplified_pi_gain = 80
-simplified_dmax_gain = 0
+set simplified_master_multiplier = 160
+set simplified_pi_gain = 80
+set simplified_dmax_gain = 0
 set simplified_pitch_pi_gain = 105
 simplified_tuning apply
 

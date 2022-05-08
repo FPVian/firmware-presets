@@ -825,7 +825,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_long_range.txt",
-      "hash": "6bbdb7dbb15123ddac7581b36ee30b7fb31b1a14505ecc7f340ba39bc3b07c2f",
+      "hash": "d27914013a7188efba07da06072907d895320b69a3148a210dd66f35e1cde4bc",
       "title": "FPVian Long Range Tune",
       "firmware_version": [
         "4.3"
@@ -861,7 +861,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_tiny_trainer.txt",
-      "hash": "93d1253f7722896d653493912a1ebc0614720ec686271eb62a6ea2e2dd418049",
+      "hash": "0c0fd657f613aa3cdfb13eff088b909ffe50ee1510e5d8abe2fd20a6944e58fc",
       "title": "FPVian Tiny Trainer Tune",
       "firmware_version": [
         "4.3"
@@ -879,7 +879,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_whoops.txt",
-      "hash": "d58887ffe6ae79d625553a35d00acf9e2076c1565f411edfadb095799941c063",
+      "hash": "044e4e102c9da3cc3903b5495794c887d72774a8c22c90b684dbd24b4f9286d6",
       "title": "FPVian Whoop Tune",
       "firmware_version": [
         "4.3"
