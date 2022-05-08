@@ -5,6 +5,7 @@
 #$ KEYWORDS: FPVian, Tune, Racing
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: FPVian Community Preset for Tuning
+#$ INCLUDE: presets/4.3/tune/fpvian_defaults.txt
 #$ DISCUSSION: Add PR URL here
 #$ HIDDEN: true
 

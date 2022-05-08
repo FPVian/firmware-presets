@@ -197,7 +197,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf.txt",
-      "hash": "76529ee2f600e4aac6a06336c38740cce288529a8c270ddd9896b5f6a54a2f61",
+      "hash": "3f5d3e22241f69f8b51b810e43c8781b2ffd6498093ad341deb90605e61a7e0c",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"
@@ -551,7 +551,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config_long_range.txt",
-      "hash": "562b73bb758c9f023e4d628707a23d0af7bff2e271ec3841da018f2b715cfa28",
+      "hash": "f12623a53763e426dd027d946cc82b6344ba59c7bccbab11826b9db9f9f61f85",
       "title": "FPVian Config Long Range",
       "firmware_version": [
         "4.3"
@@ -587,7 +587,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_defaults.txt",
-      "hash": "0945c5a094127a59c14268594a00fbc5637ec92a6093f34696338e33a22421f5",
+      "hash": "c65b43e89a49519db22e88dc745f7342ea93d653ec4df7fd3c7fa24b7e13eb75",
       "title": "Defaults",
       "firmware_version": [
         "4.3"
@@ -790,6 +790,27 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.3/tune/fpvian_defaults.txt",
+      "hash": "9af076b66e7ae8e236a341ead88f5522202caad70a628fb4423996137a6be793",
+      "title": "Tune defaults for Basic 4.3 TUNES",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "Betaflight",
+      "priority": 0,
+      "hidden": true
+    },
+    {
       "fullPath": "presets/4.3/tune/fpvian_tune.txt",
       "hash": "e8de7d4be170663b04d6de288f3f7c8abd31a15ccefb8ce17d788f2bde733a78",
       "title": "Tune",
@@ -807,7 +828,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_freestyle.txt",
-      "hash": "8a8a0a306d23088ad2bb4873abacb63ad6d65b02957c31ff13c38d3f50e7cf06",
+      "hash": "4e5ab5264105d8c76e410ce5195fb1cff64f840044a9ef0eea24ac4e2143955e",
       "title": "FPVian Freestyle Tune",
       "firmware_version": [
         "4.3"
@@ -825,7 +846,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_long_range.txt",
-      "hash": "d27914013a7188efba07da06072907d895320b69a3148a210dd66f35e1cde4bc",
+      "hash": "6682732978eb173bc077f5a897ff327fca5fb0faa4f05cda9e783bea84316d1a",
       "title": "FPVian Long Range Tune",
       "firmware_version": [
         "4.3"
@@ -843,7 +864,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_racing.txt",
-      "hash": "2c99d0c9929174b84f2c3b5e6f255cb14462ab0d3f90fd3bbe30de526faa9f66",
+      "hash": "d660766cfdda6595becb2d2f984cff252e004a86f1c02dc0a382aacec08aaf94",
       "title": "FPVian Racing Tune",
       "firmware_version": [
         "4.3"
@@ -861,7 +882,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_tiny_trainer.txt",
-      "hash": "0c0fd657f613aa3cdfb13eff088b909ffe50ee1510e5d8abe2fd20a6944e58fc",
+      "hash": "819b1834ed2837423a888525b81fe4e3df946f6babdb9b3d6e02bcb65c7519dd",
       "title": "FPVian Tiny Trainer Tune",
       "firmware_version": [
         "4.3"
@@ -879,7 +900,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_whoops.txt",
-      "hash": "044e4e102c9da3cc3903b5495794c887d72774a8c22c90b684dbd24b4f9286d6",
+      "hash": "c86ad9692da8e2374526fde1e876653cf9931695ceb7b899d9b08d038bc4e3c1",
       "title": "FPVian Whoop Tune",
       "firmware_version": [
         "4.3"

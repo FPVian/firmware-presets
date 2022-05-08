@@ -182,7 +182,7 @@ resource MOTOR 3 B01
 
 
 #$ OPTION BEGIN (UNCHECKED): Tiny Trainer
-# VTX is HGLRC Zeus Nano (IRC Tramp)
+# VTX is TBS Unify Pro32 Nano 5G8 V1.1
 set motor_poles = 12
 set vbat_max_cell_voltage = 435
 set name = Tiny Trainer
@@ -232,9 +232,6 @@ resource MOTOR 1 B08
 resource MOTOR 2 B07
 resource MOTOR 3 B06
 resource MOTOR 4 B10
-# rateprofile
-set thr_mid = 100
-set thr_expo = 65
 #$ OPTION END
 
 #$ OPTION_GROUP END

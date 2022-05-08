@@ -9,7 +9,7 @@
 
 
 #$ OPTION BEGIN (UNCHECKED): Tune
-#$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ INCLUDE: presets/4.3/tune/fpvian_defaults.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Filters

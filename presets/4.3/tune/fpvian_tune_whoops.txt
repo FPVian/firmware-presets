@@ -5,6 +5,7 @@
 #$ KEYWORDS: FPVian, Tune, Whoops
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: FPVian Community Preset for Tuning
+#$ INCLUDE: presets/4.3/tune/fpvian_defaults.txt
 #$ DISCUSSION: Add PR URL here
 #$ HIDDEN: true
 
@@ -17,7 +18,7 @@
 set dyn_idle_min_rpm = 45
 
 set thr_mid = 100
-set thr_expo = 75
+set thr_expo = 65
 
 # PIDS
 set vbat_sag_compensation = 100
