@@ -17,12 +17,17 @@ set osd_link_quality_pos = 14736
 set osd_warnings_pos = 14441
 set osd_avg_cell_voltage_pos = 14728
 set osd_flip_arrow_pos = 14734
-set osd_warn_core_temp = OFF
+set osd_rssi_dbm_pos = 14743
+
+set osd_stat_min_rssi = OFF
+set osd_stat_min_rssi_dbm = ON
+set osd_stat_max_spd = OFF
 set osd_stat_battery = ON
 set osd_stat_max_curr = OFF
 set osd_stat_used_mah = OFF
 set osd_stat_min_link_quality = ON
 
+set osd_warn_core_temp = OFF
 
 # Add Display Name for Racing
 set display_name = FPVian
