@@ -36,6 +36,18 @@ set feedforward_smooth_factor = 65
 set feedforward_jitter_factor = 4
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): 250hz Freestyle ELRS
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 13
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 250hz Racing ELRS
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 35
+set feedforward_jitter_factor = 4
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): 50hz ELRS
 set feedforward_averaging = OFF
 set feedforward_smooth_factor = 0
