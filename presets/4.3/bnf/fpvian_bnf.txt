@@ -66,16 +66,12 @@ resource MOTOR 4 B06
 # VTX is TBS Unify Pro32 HV (MMCX)
 set name = Banger
 # serial
-serial 3 2048 115200 57600 0 115200
+serial 2 2048 115200 57600 0 115200
 #resource
-resource MOTOR 5 B04
-resource MOTOR 6 B05
-resource MOTOR 7 B00
-resource MOTOR 8 B01
-resource MOTOR 3 A15
-resource MOTOR 4 B03
-resource MOTOR 1 B06
-resource MOTOR 2 B07
+resource MOTOR 1 B04
+resource MOTOR 2 B05
+resource MOTOR 3 B00
+resource MOTOR 4 B01
 #$ OPTION END
 
 
