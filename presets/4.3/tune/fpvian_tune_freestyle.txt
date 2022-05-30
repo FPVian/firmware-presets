@@ -18,7 +18,6 @@ set tpa_mode = PD
 # PIDS
 set vbat_sag_compensation = 100
 set anti_gravity_gain = 4200
-set iterm_relax_cutoff = 10
 set throttle_boost = 0
 
 set simplified_i_gain = 160
