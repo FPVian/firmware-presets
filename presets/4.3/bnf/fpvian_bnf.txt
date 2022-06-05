@@ -16,16 +16,16 @@
 #$ OPTION BEGIN (UNCHECKED): Glide Black
 set name = Glide Black
 set align_board_roll = 180
+set align_board_pitch = 180
 # serial
-serial 0 64 115200 57600 0 115200
-serial 2 1 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
+serial 3 1 115200 57600 0 115200
 serial 4 0 115200 57600 0 115200
 serial 5 0 115200 57600 0 115200
 #resource
-resource MOTOR 3 B06
 resource MOTOR 1 B07
 resource MOTOR 2 B08
-resource MOTOR 4 B09
+resource MOTOR 3 B06
 #$ OPTION END
 
 

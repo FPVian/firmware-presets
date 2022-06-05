@@ -10,7 +10,7 @@
 #$ HIDDEN: true
 
 
-#Try dynamic idle up to 70
+#Try dynamic idle 64-127 (up to 70)
 #Try set mixer_type = DYNAMIC
 
 #START WHOOP PRESETS
