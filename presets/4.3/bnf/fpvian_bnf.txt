@@ -4,7 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: bnf, quad
 #$ AUTHOR: FPVian
-#$ DESCRIPTION: Check CLI comments for Wizard and Apex
+#$ DESCRIPTION: Check CLI comments for Wizard
 #$ DESCRIPTION:
 #$ DESCRIPTION: Run this preset both before and after general configuration
 #$ PRIORITY: 6
@@ -117,12 +117,6 @@ resource MOTOR 2 A02
 
 
 #$ OPTION BEGIN (UNCHECKED): Apex
-
-# Noisy
-# set gyro_notch1_hz = 275
-# set gyro_notch1_cutoff = 255
-# set yaw_lowpass_hz = 60
-
 set name = Apex
 set align_board_yaw = 180
 # serial
@@ -132,6 +126,8 @@ resource MOTOR 1 B04
 resource MOTOR 2 B05
 resource MOTOR 3 B00
 resource MOTOR 4 B01
+
+set yaw_lowpass_hz = 60
 #$ OPTION END
 
 
