@@ -189,6 +189,7 @@ serial 3 16384 115200 57600 0 115200
 # VTX is TBS Unify Pro32 Nano 5G8 V1.1
 set vbat_warning_cell_voltage = 330
 set gyro_1_align_yaw = 1800
+set align_board_yaw = 180
 set motor_poles = 12
 set name = Cockroach
 feature SOFTSERIAL
