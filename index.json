@@ -197,7 +197,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf.txt",
-      "hash": "3f5d3e22241f69f8b51b810e43c8781b2ffd6498093ad341deb90605e61a7e0c",
+      "hash": "8723f05e4ff42b58656907a8894edf35b3fea2f22c68362f13ae3eceabf7d140",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"
@@ -283,7 +283,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/fpvian_filters_very_clean.txt",
-      "hash": "eb018916475d1f27700c2e080268993702328a7dfb85aa2984dfb938fb722a56",
+      "hash": "e3ed8a86c873b2d5fc81dfc52cf7ed269f5cdce870d2e25940e79353fd64d572",
       "title": "FPVian Filters Very Clean (Racing)",
       "firmware_version": [
         "4.3"
@@ -375,7 +375,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/fpvian_modes.txt",
-      "hash": "9fa99a84d470661611b073a0970cc7a4b465f5a1cbf3c75eea2edff925e3fa0f",
+      "hash": "5f49b130555410080cec84a7722c36e8fca400f9d921f3d102b895de13b9d746",
       "title": "Modes",
       "firmware_version": [
         "4.3"
@@ -442,7 +442,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd_analog.txt",
-      "hash": "561345335c13e34d27238377535709b241395e8026b634eeec957aa408f8dbc5",
+      "hash": "c357f127fe60473aa81872cff6f7c568ccc45daa3a8e34cab9b2482aa5238e1e",
       "title": "FPVian OSD Analog",
       "firmware_version": [
         "4.3"
@@ -498,7 +498,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd_hdzero.txt",
-      "hash": "1cfd0e8278c7a6bba06ef0717789f290ed12f1c54f1206b796d62438081c40ca",
+      "hash": "d5f0939a37d9ae583e3e0cef1e0b0e01dd7cb9b245f29ac5627fc9eceb44b0ed",
       "title": "FPVian OSD HDZero",
       "firmware_version": [
         "4.3"
@@ -569,7 +569,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config_whoop.txt",
-      "hash": "effb49f34ec7273757b26fbfd7dc2350ae33b1c7bc71a4c8a3b70c533a1b0a44",
+      "hash": "d837f4a216160527c213ffe03f6260d33794716cc60f3eb0a01dcf9453fc44b7",
       "title": "FPVian Config Whoop",
       "firmware_version": [
         "4.3"
@@ -657,7 +657,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/fpvian_rc_link.txt",
-      "hash": "377bbbc57364249f291ddc47c78bb50525effd0dc6c863841148928b8763ad6b",
+      "hash": "589533186aa0d7cead7ecffd1cc0babd69dd25325ecfe335b6e565913282c0c9",
       "title": "RC Link",
       "firmware_version": [
         "4.3"
@@ -768,7 +768,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_basher_freestyle.txt",
-      "hash": "a0f4b09f6c4b62008eda68dc0aad73bff77e66cdf219b501ed2696b192704ea2",
+      "hash": "a1f43454704c83f9e591ee32324965e55ad92cb018ca5e855fbf18f6004aa0c6",
       "title": "Basher Freestyle 6S 5\" by FPVian",
       "firmware_version": [
         "4.3"
@@ -812,7 +812,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune.txt",
-      "hash": "e8de7d4be170663b04d6de288f3f7c8abd31a15ccefb8ce17d788f2bde733a78",
+      "hash": "1231b043dbc3ce7c7e2e7147d1f82ccc9d2aaebef647a2de50cf288465f0f3ef",
       "title": "Tune",
       "firmware_version": [
         "4.3"
@@ -828,7 +828,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_freestyle.txt",
-      "hash": "4e5ab5264105d8c76e410ce5195fb1cff64f840044a9ef0eea24ac4e2143955e",
+      "hash": "06a67f5d4296e08a63e720c829dfefaec46f64f3d91484a52ac6158082c2239d",
       "title": "FPVian Freestyle Tune",
       "firmware_version": [
         "4.3"
@@ -846,7 +846,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_long_range.txt",
-      "hash": "6682732978eb173bc077f5a897ff327fca5fb0faa4f05cda9e783bea84316d1a",
+      "hash": "810efd74e3ffcdc562ba724e3b651e2f19e54b441d240f43ba79a87ea03b1cd0",
       "title": "FPVian Long Range Tune",
       "firmware_version": [
         "4.3"
@@ -881,7 +881,7 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.3/tune/fpvian_tune_tiny_trainer.txt",
+      "fullPath": "presets/4.3/tune/fpvian_tune_tadpole.txt",
       "hash": "819b1834ed2837423a888525b81fe4e3df946f6babdb9b3d6e02bcb65c7519dd",
       "title": "FPVian Tiny Trainer Tune",
       "firmware_version": [
@@ -900,7 +900,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_whoops.txt",
-      "hash": "c86ad9692da8e2374526fde1e876653cf9931695ceb7b899d9b08d038bc4e3c1",
+      "hash": "f461bfcaa8b778132939d2e3ff9f5676502e32e2492553a653c4f0e4500132b3",
       "title": "FPVian Whoop Tune",
       "firmware_version": [
         "4.3"
@@ -957,7 +957,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/fpvian_vtx_analog.txt",
-      "hash": "71503883b2bb33b27a42c4b8a784523e7fde2d082f388d33f842477ec4039ffd",
+      "hash": "02d6a07cd189d13fc079ab6ca3a2310ef18732eda2a45f7003f43b7921694979",
       "title": "Analog VTX",
       "firmware_version": [
         "4.3"

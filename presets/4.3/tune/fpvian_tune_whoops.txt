@@ -18,7 +18,7 @@
 set dyn_idle_min_rpm = 45
 
 set thr_mid = 100
-set thr_expo = 65
+set thr_expo = 60
 
 # PIDS
 set vbat_sag_compensation = 100

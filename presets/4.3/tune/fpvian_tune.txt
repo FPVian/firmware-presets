@@ -36,8 +36,8 @@ set throttle_limit_percent = 90
 #$ INCLUDE: presets/4.3/tune/fpvian_tune_whoops.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Tiny Trainer
-#$ INCLUDE: presets/4.3/tune/fpvian_tune_tiny_trainer.txt
+#$ OPTION BEGIN (UNCHECKED): Tadpole
+#$ INCLUDE: presets/4.3/tune/fpvian_tune_tadpole.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
