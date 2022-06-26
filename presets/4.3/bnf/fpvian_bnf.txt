@@ -4,8 +4,6 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: bnf, quad
 #$ AUTHOR: FPVian
-#$ DESCRIPTION: Check CLI comments for Wizard
-#$ DESCRIPTION:
 #$ DESCRIPTION: Run this preset both before and after general configuration
 #$ PRIORITY: 6
 #$ FORCE_OPTIONS_REVIEW: TRUE
@@ -95,10 +93,8 @@ resource MOTOR 8 B01
 
 #$ OPTION BEGIN (UNCHECKED): Wizard 
 # VTX is AKK FX2-ultimate
-
-# Add disabling BB
-
 set name = Wizard X220HV
+set blackbox_device = NONE
 set motor_pwm_protocol = DSHOT300
 # serial
 serial 2 2048 115200 57600 0 115200
