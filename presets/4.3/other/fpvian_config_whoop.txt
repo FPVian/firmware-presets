@@ -52,5 +52,5 @@ beacon RX_SET
 
 # BATTERY TAB
 set vbat_max_cell_voltage = 435
-set vbat_min_cell_voltage = 310
-set vbat_warning_cell_voltage = 320
+set vbat_min_cell_voltage = 320
+set vbat_warning_cell_voltage = 330

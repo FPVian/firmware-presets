@@ -4,8 +4,6 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: bnf, quad
 #$ AUTHOR: FPVian
-#$ DESCRIPTION: Check CLI comments for Wizard and Apex
-#$ DESCRIPTION:
 #$ DESCRIPTION: Run this preset both before and after general configuration
 #$ PRIORITY: 6
 #$ FORCE_OPTIONS_REVIEW: TRUE
@@ -75,7 +73,7 @@ resource MOTOR 4 B01
 #$ OPTION END
 
 
-#$ OPTION BEGIN (UNCHECKED): The Dragon
+#$ OPTION BEGIN (UNCHECKED): Source One
 # VTX is RDQ Mach 3
 set name = The Dragon
 # serial
@@ -95,10 +93,8 @@ resource MOTOR 8 B01
 
 #$ OPTION BEGIN (UNCHECKED): Wizard 
 # VTX is AKK FX2-ultimate
-
-# Add disabling BB
-
 set name = Wizard X220HV
+set blackbox_device = NONE
 set motor_pwm_protocol = DSHOT300
 # serial
 serial 2 2048 115200 57600 0 115200
@@ -117,12 +113,6 @@ resource MOTOR 2 A02
 
 
 #$ OPTION BEGIN (UNCHECKED): Apex
-
-# Noisy
-# set gyro_notch1_hz = 275
-# set gyro_notch1_cutoff = 255
-# set yaw_lowpass_hz = 60
-
 set name = Apex
 set align_board_yaw = 180
 # serial
@@ -132,6 +122,8 @@ resource MOTOR 1 B04
 resource MOTOR 2 B05
 resource MOTOR 3 B00
 resource MOTOR 4 B01
+
+set yaw_lowpass_hz = 60
 #$ OPTION END
 
 
@@ -177,7 +169,7 @@ resource MOTOR 3 B01
 
 
 
-#$ OPTION BEGIN (UNCHECKED): Tiny Trainer
+#$ OPTION BEGIN (UNCHECKED): Tadpole
 # VTX is TBS Unify Pro32 Nano 5G8 V1.1
 set motor_poles = 12
 set vbat_max_cell_voltage = 435
@@ -191,8 +183,11 @@ serial 3 16384 115200 57600 0 115200
 
 #$ OPTION BEGIN (UNCHECKED): Cockroach
 # VTX is TBS Unify Pro32 Nano 5G8 V1.1
+set throttle_limit_type = SCALE
+set throttle_limit_percent = 70
 set vbat_warning_cell_voltage = 330
 set gyro_1_align_yaw = 1800
+set align_board_yaw = 180
 set motor_poles = 12
 set name = Cockroach
 feature SOFTSERIAL

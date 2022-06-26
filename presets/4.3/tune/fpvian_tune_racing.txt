@@ -18,7 +18,7 @@
 
 
 set dyn_idle_min_rpm = 25
-set tpa_breakpoint = 1750
+set tpa_mode = PD
 
 # PIDS
 set vbat_sag_compensation = 100
