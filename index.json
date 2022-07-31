@@ -197,7 +197,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf.txt",
-      "hash": "8723f05e4ff42b58656907a8894edf35b3fea2f22c68362f13ae3eceabf7d140",
+      "hash": "59491d84cbce03b02745a6400f85fa1c68d6a16ed605d4efe99448f273f2777c",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"
@@ -211,6 +211,24 @@
       "author": "FPVian",
       "priority": 6,
       "force_options_review": true
+    },
+    {
+      "fullPath": "presets/4.3/bnf/fpvian_bnf_removed.txt",
+      "hash": "b5a7cac89ab9edcae885446e54ffdb959b5fd0c0a5e8a0f309e25c762afa910e",
+      "title": "Quad Specific",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "bnf",
+        "quad"
+      ],
+      "author": "FPVian",
+      "priority": 6,
+      "force_options_review": true,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/filters/defaults.txt",
@@ -233,7 +251,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/fpvian_filters.txt",
-      "hash": "1e4d44ec617bc7d869036bc202fad7872335dceb3640f5ade1d326cc90a031c6",
+      "hash": "fb7641b3e3b1daff840866ae3bb52eb2add4db9377cb54ffd689c2413b131c93",
       "title": "Filters",
       "firmware_version": [
         "4.3"
@@ -569,7 +587,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config_whoop.txt",
-      "hash": "d837f4a216160527c213ffe03f6260d33794716cc60f3eb0a01dcf9453fc44b7",
+      "hash": "be6171bbd16839c4857423d5279374d01d407db80e9c98944f1c0a939914073e",
       "title": "FPVian Config Whoop",
       "firmware_version": [
         "4.3"
@@ -812,7 +830,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune.txt",
-      "hash": "1231b043dbc3ce7c7e2e7147d1f82ccc9d2aaebef647a2de50cf288465f0f3ef",
+      "hash": "ab56797d10158f6c07877c77ca51205690b9ff9324c5c7e0e054c9ac38fbce9f",
       "title": "Tune",
       "firmware_version": [
         "4.3"
@@ -864,7 +882,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_racing.txt",
-      "hash": "d660766cfdda6595becb2d2f984cff252e004a86f1c02dc0a382aacec08aaf94",
+      "hash": "e8aca01abe522360ba9b76a4ec405be0663d1d746446a2d30ca75e4351c0d9eb",
       "title": "FPVian Racing Tune",
       "firmware_version": [
         "4.3"
@@ -881,7 +899,7 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.3/tune/fpvian_tune_tadpole.txt",
+      "fullPath": "presets/4.3/tune/fpvian_tune_tadpole_removed.txt",
       "hash": "819b1834ed2837423a888525b81fe4e3df946f6babdb9b3d6e02bcb65c7519dd",
       "title": "FPVian Tiny Trainer Tune",
       "firmware_version": [
@@ -900,7 +918,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_whoops.txt",
-      "hash": "f461bfcaa8b778132939d2e3ff9f5676502e32e2492553a653c4f0e4500132b3",
+      "hash": "a9fe62170fc7274946f8f9c4d2889ce35db778babca396cd3688c3fea8bf4d7b",
       "title": "FPVian Whoop Tune",
       "firmware_version": [
         "4.3"
@@ -957,7 +975,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/fpvian_vtx_analog.txt",
-      "hash": "02d6a07cd189d13fc079ab6ca3a2310ef18732eda2a45f7003f43b7921694979",
+      "hash": "2d9012ae44983f22eb903eb984de03fdc38b42674420e085890a03d10a36b7e1",
       "title": "Analog VTX",
       "firmware_version": [
         "4.3"
@@ -971,6 +989,24 @@
       "author": "FPVian",
       "priority": 2,
       "force_options_review": true
+    },
+    {
+      "fullPath": "presets/4.3/vtx/fpvian_vtx_analog_removed.txt",
+      "hash": "a6e8fb4fe0d8ba0c2b210de401b002cee6d2b0a2cc189015f6f22b72c7c96aab",
+      "title": "Analog VTX",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "vtx",
+        "analog"
+      ],
+      "author": "FPVian",
+      "priority": 2,
+      "force_options_review": true,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/vtx/fpvian_vtx_hdzero.txt",

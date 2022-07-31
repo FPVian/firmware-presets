@@ -72,23 +72,6 @@ resource MOTOR 4 B01
 #$ OPTION END
 
 
-#$ OPTION BEGIN (UNCHECKED): Source One
-# VTX is RDQ Mach 3
-set name = The Dragon
-# serial
-serial 1 16384 115200 57600 0 115200
-serial 2 2048 115200 57600 0 115200
-# resource
-resource MOTOR 1 B07
-resource MOTOR 2 B06
-resource MOTOR 3 B03
-resource MOTOR 4 A15
-resource MOTOR 5 B04
-resource MOTOR 6 B05
-resource MOTOR 7 B00
-resource MOTOR 8 B01
-#$ OPTION END
-
 
 #$ OPTION BEGIN (UNCHECKED): Wizard 
 # VTX is AKK FX2-ultimate
@@ -168,18 +151,6 @@ resource MOTOR 3 B01
 
 
 
-#$ OPTION BEGIN (UNCHECKED): Tadpole
-# VTX is TBS Unify Pro32 Nano 5G8 V1.1
-set motor_poles = 12
-set vbat_max_cell_voltage = 435
-set name = Tiny Trainer
-# serial
-serial 2 2048 115200 57600 0 115200
-serial 3 16384 115200 57600 0 115200
-#$ OPTION END
-
-
-
 #$ OPTION BEGIN (UNCHECKED): Cockroach
 # VTX is TBS Unify Pro32 Nano 5G8 V1.1
 set throttle_limit_type = SCALE
@@ -207,21 +178,5 @@ set pinio_box = 0,255,255,255
 #$ OPTION END
 
 
-
-#$ OPTION BEGIN (UNCHECKED): Moblite 7
-set ibata_scale = 1175
-set align_board_yaw = 180
-set gyro_1_align_yaw = 900
-# set frsky_spi_offset = -32
-set name = Moblite7
-# serial
-serial 0 64 115200 57600 0 115200
-serial 1 2048 115200 57600 0 115200
-#resource
-resource MOTOR 1 B08
-resource MOTOR 2 B07
-resource MOTOR 3 B06
-resource MOTOR 4 B10
-#$ OPTION END
 
 #$ OPTION_GROUP END
