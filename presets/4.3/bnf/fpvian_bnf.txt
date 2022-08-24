@@ -12,6 +12,7 @@
 #$ OPTION_GROUP BEGIN: Quad Name (Choose One)
 
 #$ OPTION BEGIN (UNCHECKED): Glide Black
+# Filter Setting: Noisy
 set name = Glide Black
 set align_board_roll = 180
 set align_board_pitch = 180
@@ -28,6 +29,7 @@ resource MOTOR 3 B06
 
 
 #$ OPTION BEGIN (UNCHECKED): Glide Red
+# Filter Setting: Clean
 set name = Glide Red
 set align_board_pitch = 180
 # serial
@@ -44,6 +46,7 @@ resource MOTOR 3 B09
 
 
 #$ OPTION BEGIN (UNCHECKED): Glide Blue
+# Filter Setting: Clean
 set name = Glide Blue
 set align_board_yaw = 180
 # serial
@@ -60,6 +63,7 @@ resource MOTOR 4 B06
 
 
 #$ OPTION BEGIN (UNCHECKED): Banger
+# Filter Setting: Clean
 # VTX is TBS Unify Pro32 HV (MMCX)
 set name = Banger
 # serial
@@ -72,8 +76,8 @@ resource MOTOR 4 B01
 #$ OPTION END
 
 
-
-#$ OPTION BEGIN (UNCHECKED): Wizard 
+#$ OPTION BEGIN (UNCHECKED): Wizard
+# Filter Setting: Noisy
 # VTX is AKK FX2-ultimate
 set name = Wizard X220HV
 set blackbox_device = NONE
@@ -95,6 +99,7 @@ resource MOTOR 2 A02
 
 
 #$ OPTION BEGIN (UNCHECKED): Apex
+# Filter Setting: Noisy
 set name = Apex
 set align_board_yaw = 180
 # serial
@@ -110,6 +115,7 @@ set yaw_lowpass_hz = 60
 
 
 #$ OPTION BEGIN (UNCHECKED): Super G
+# Filter Setting: Very Noisy
 set ibata_scale = 109
 set name = SuperG
 # serial
@@ -124,8 +130,8 @@ resource MOTOR 4 A10
 #$ OPTION END
 
 
-
 #$ OPTION BEGIN (UNCHECKED): Switchback Blue
+# Filter Setting: Very Noisy
 # VTX is TBS Unify Pro 5G8 HV - Race 2
 set name = Switchback Blue
 # serial
@@ -135,8 +141,8 @@ serial 5 1024 115200 57600 0 115200
 #$ OPTION END
 
 
-
 #$ OPTION BEGIN (UNCHECKED): Switchback Red
+# Filter Setting: Very Noisy
 # VTX is HDZero Race v2
 set name = Switchback Red
 # serial
@@ -150,8 +156,8 @@ resource MOTOR 3 B01
 #$ OPTION END
 
 
-
 #$ OPTION BEGIN (UNCHECKED): Cockroach
+# Filter Setting: Noisy
 # VTX is TBS Unify Pro32 Nano 5G8 V1.1
 set throttle_limit_type = SCALE
 set throttle_limit_percent = 70
