@@ -197,7 +197,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf.txt",
-      "hash": "59491d84cbce03b02745a6400f85fa1c68d6a16ed605d4efe99448f273f2777c",
+      "hash": "6388ccadf739aff1e3454d90c1a2a7e8bb2233bc8aaebce1467c76db75c74f06",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"
@@ -214,7 +214,7 @@
     },
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf_removed.txt",
-      "hash": "b5a7cac89ab9edcae885446e54ffdb959b5fd0c0a5e8a0f309e25c762afa910e",
+      "hash": "92904238489428add666c8f86423d897c01ef0b4cc55904ea572ea173cc56441",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"
@@ -267,7 +267,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/fpvian_filters_clean.txt",
-      "hash": "3aadc922426f11e37ba5c425670f42dfd07cb87956858d0e5debb7c523f8f55a",
+      "hash": "cc641cfd0bec09223ff2b2cd493ae266666dc348a20e6f26a8cee6cd94b1d9a8",
       "title": "FPVian Filters Clean (Freestyle)",
       "firmware_version": [
         "4.3"
@@ -284,7 +284,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/fpvian_filters_noisy.txt",
-      "hash": "e8575b7888c3c0632a2c8165dab69fd02aa4c3ac5d643af134ab1f9d5ff99842",
+      "hash": "77982078c6a4bad4f2f9dc5299cc4601b71079547339b90b1cd04b19f545a3f9",
       "title": "FPVian Filters Noisy",
       "firmware_version": [
         "4.3"
@@ -319,7 +319,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/fpvian_filters_very_noisy.txt",
-      "hash": "a1a68eef482d78134c08c3feed18b2ff50fdcde72e244b09c3480382187ae1e8",
+      "hash": "8ebb08aec3416b136a863b35e61cbcf3b415ac05c2adb843b2398ed13be9f11a",
       "title": "FPVian Filters Very Noisy (Long Range)",
       "firmware_version": [
         "4.3"
@@ -355,7 +355,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/fpvian_leds.txt",
-      "hash": "d556f29050cbe229a84220b134139e639eb408d5c71651dc5d69600a4f2a2d49",
+      "hash": "b59e5dc3e4e4fde33ce8c19bead2a5a9cec63e9a6a4b9fd1cb5d350564067597",
       "title": "LEDS",
       "firmware_version": [
         "4.3"
@@ -368,6 +368,23 @@
       "author": "FPVian",
       "force_options_review": true,
       "priority": 1
+    },
+    {
+      "fullPath": "presets/4.3/leds/fpvian_leds_removed.txt",
+      "hash": "3d3fe9a6014a44e70c8f4011b09632ec0c18ce7ea1663188e0da09900f66bb3f",
+      "title": "LEDS",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "LEDS",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "LEDS"
+      ],
+      "author": "FPVian",
+      "force_options_review": true,
+      "priority": 1,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/modes/defaults.txt",
@@ -975,7 +992,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/fpvian_vtx_analog.txt",
-      "hash": "2d9012ae44983f22eb903eb984de03fdc38b42674420e085890a03d10a36b7e1",
+      "hash": "a23971fdb3e990923717a9719b66ee854ed3218056245636133436103e663056",
       "title": "Analog VTX",
       "firmware_version": [
         "4.3"
@@ -992,7 +1009,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/fpvian_vtx_analog_removed.txt",
-      "hash": "a6e8fb4fe0d8ba0c2b210de401b002cee6d2b0a2cc189015f6f22b72c7c96aab",
+      "hash": "448944f3286ca4d3ef35d640007be1bba7449591b1f69d98afe4bdf6a54e82e6",
       "title": "Analog VTX",
       "firmware_version": [
         "4.3"

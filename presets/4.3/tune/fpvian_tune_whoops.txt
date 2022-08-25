@@ -5,25 +5,28 @@
 #$ KEYWORDS: FPVian, Tune, Whoops
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: FPVian Community Preset for Tuning
+#$ DESCRIPTION:
+#$ DESCRIPTION: Try set mixer_type = DYNAMIC
 #$ INCLUDE: presets/4.3/tune/fpvian_defaults.txt
 #$ DISCUSSION: Add PR URL here
 #$ HIDDEN: true
 
 
-#Try dynamic idle 64-127 (up to 70)
 #Try set mixer_type = DYNAMIC
 
 #START WHOOP PRESETS
 
-set dyn_idle_min_rpm = 45
+set dyn_idle_min_rpm = 65
 
 set thr_mid = 100
-set thr_expo = 60
+set thr_expo = 50
+
+set level_limit = 75
 
 # PIDS
 set vbat_sag_compensation = 100
 set anti_gravity_gain = 4200
-set iterm_relax_cutoff = 10
+set iterm_relax_cutoff = 15
 set throttle_boost = 0
 
 set simplified_master_multiplier = 105

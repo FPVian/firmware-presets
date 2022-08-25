@@ -59,4 +59,19 @@ resource MOTOR 3 B06
 resource MOTOR 4 B10
 #$ OPTION END
 
+
+
+#$ OPTION BEGIN (UNCHECKED): Banger
+# Filter Setting: Clean
+# VTX is TBS Unify Pro32 HV (MMCX)
+set name = Banger
+# serial
+serial 2 2048 115200 57600 0 115200
+#resource
+resource MOTOR 1 B04
+resource MOTOR 2 B05
+resource MOTOR 3 B00
+resource MOTOR 4 B01
+#$ OPTION END
+
 #$ OPTION_GROUP END
