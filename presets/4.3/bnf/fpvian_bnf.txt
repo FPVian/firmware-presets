@@ -12,6 +12,7 @@
 #$ OPTION_GROUP BEGIN: Quad Name (Choose One)
 
 #$ OPTION BEGIN (UNCHECKED): Glide Black
+# Filter Setting: Noisy
 set name = Glide Black
 set align_board_roll = 180
 set align_board_pitch = 180
@@ -28,6 +29,7 @@ resource MOTOR 3 B06
 
 
 #$ OPTION BEGIN (UNCHECKED): Glide Red
+# Filter Setting: Clean
 set name = Glide Red
 set align_board_pitch = 180
 # serial
@@ -44,12 +46,12 @@ resource MOTOR 3 B09
 
 
 #$ OPTION BEGIN (UNCHECKED): Glide Blue
+# Filter Setting: Clean
 set name = Glide Blue
-set align_board_pitch = 180
 set align_board_yaw = 180
 # serial
-serial 0 64 115200 57600 0 115200
-serial 2 1 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
+serial 3 1 115200 57600 0 115200
 serial 4 0 115200 57600 0 115200
 serial 5 0 115200 57600 0 115200
 # resource
@@ -60,38 +62,8 @@ resource MOTOR 4 B06
 #$ OPTION END
 
 
-#$ OPTION BEGIN (UNCHECKED): Banger
-# VTX is TBS Unify Pro32 HV (MMCX)
-set name = Banger
-# serial
-serial 2 2048 115200 57600 0 115200
-#resource
-resource MOTOR 1 B04
-resource MOTOR 2 B05
-resource MOTOR 3 B00
-resource MOTOR 4 B01
-#$ OPTION END
-
-
-#$ OPTION BEGIN (UNCHECKED): Source One
-# VTX is RDQ Mach 3
-set name = The Dragon
-# serial
-serial 1 16384 115200 57600 0 115200
-serial 2 2048 115200 57600 0 115200
-# resource
-resource MOTOR 1 B07
-resource MOTOR 2 B06
-resource MOTOR 3 B03
-resource MOTOR 4 A15
-resource MOTOR 5 B04
-resource MOTOR 6 B05
-resource MOTOR 7 B00
-resource MOTOR 8 B01
-#$ OPTION END
-
-
-#$ OPTION BEGIN (UNCHECKED): Wizard 
+#$ OPTION BEGIN (UNCHECKED): Wizard
+# Filter Setting: Noisy
 # VTX is AKK FX2-ultimate
 set name = Wizard X220HV
 set blackbox_device = NONE
@@ -113,6 +85,7 @@ resource MOTOR 2 A02
 
 
 #$ OPTION BEGIN (UNCHECKED): Apex
+# Filter Setting: Noisy
 set name = Apex
 set align_board_yaw = 180
 # serial
@@ -128,6 +101,7 @@ set yaw_lowpass_hz = 60
 
 
 #$ OPTION BEGIN (UNCHECKED): Super G
+# Filter Setting: Very Noisy
 set ibata_scale = 109
 set name = SuperG
 # serial
@@ -142,8 +116,8 @@ resource MOTOR 4 A10
 #$ OPTION END
 
 
-
 #$ OPTION BEGIN (UNCHECKED): Switchback Blue
+# Filter Setting: Very Noisy
 # VTX is TBS Unify Pro 5G8 HV - Race 2
 set name = Switchback Blue
 # serial
@@ -153,8 +127,8 @@ serial 5 1024 115200 57600 0 115200
 #$ OPTION END
 
 
-
 #$ OPTION BEGIN (UNCHECKED): Switchback Red
+# Filter Setting: Very Noisy
 # VTX is HDZero Race v2
 set name = Switchback Red
 # serial
@@ -168,20 +142,8 @@ resource MOTOR 3 B01
 #$ OPTION END
 
 
-
-#$ OPTION BEGIN (UNCHECKED): Tadpole
-# VTX is TBS Unify Pro32 Nano 5G8 V1.1
-set motor_poles = 12
-set vbat_max_cell_voltage = 435
-set name = Tiny Trainer
-# serial
-serial 2 2048 115200 57600 0 115200
-serial 3 16384 115200 57600 0 115200
-#$ OPTION END
-
-
-
 #$ OPTION BEGIN (UNCHECKED): Cockroach
+# Filter Setting: Noisy, Tune: Freestyle
 # VTX is TBS Unify Pro32 Nano 5G8 V1.1
 set throttle_limit_type = SCALE
 set throttle_limit_percent = 70
@@ -208,21 +170,24 @@ set pinio_box = 0,255,255,255
 #$ OPTION END
 
 
-
-#$ OPTION BEGIN (UNCHECKED): Moblite 7
-set ibata_scale = 1175
-set align_board_yaw = 180
-set gyro_1_align_yaw = 900
-# set frsky_spi_offset = -32
-set name = Moblite7
+#$ OPTION BEGIN (UNCHECKED): Mobeetle6
+# Filter Setting: Noisy
+# VTX is Happymodel Diamond F4 OPENVTX
+set align_board_yaw = 90
+set motor_poles = 12
+set pid_process_denom = 1
+feature -RX_SERIAL
+set name = Mobeetle6
+set expresslrs_uid = 234,80,100,128,17,19
 # serial
-serial 0 64 115200 57600 0 115200
 serial 1 2048 115200 57600 0 115200
-#resource
+# resources
 resource MOTOR 1 B08
 resource MOTOR 2 B07
 resource MOTOR 3 B06
 resource MOTOR 4 B10
 #$ OPTION END
+
+
 
 #$ OPTION_GROUP END
