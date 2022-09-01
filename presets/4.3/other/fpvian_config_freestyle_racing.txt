@@ -15,8 +15,6 @@
 
 #CONFIGURATION TAB
 set yaw_motors_reversed = ON
-set mag_hardware = NONE
-set baro_hardware = NONE
 set motor_pwm_protocol = DSHOT600
 set dshot_bidir = ON
 set small_angle = 180
