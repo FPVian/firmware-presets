@@ -171,10 +171,8 @@ set pinio_box = 0,255,255,255
 
 
 #$ OPTION BEGIN (UNCHECKED): Mobeetle6
-# Filter Setting: 
+# Filter Setting: Noisy
 # VTX is Happymodel Diamond F4 OPENVTX
-set vbat_min_cell_voltage = 290
-set vbat_warning_cell_voltage = 310
 set align_board_yaw = 90
 set motor_poles = 12
 set pid_process_denom = 1

@@ -17,23 +17,20 @@
 #START WHOOP PRESETS
 
 set dyn_idle_min_rpm = 65
+set tpa_mode = PD
 
 set thr_mid = 100
 set thr_expo = 50
-
 set level_limit = 75
 
 # PIDS
 set vbat_sag_compensation = 100
 set anti_gravity_gain = 4200
-set iterm_relax_cutoff = 15
 set throttle_boost = 0
 
-set simplified_master_multiplier = 105
-set simplified_i_gain = 50
 set simplified_d_gain = 200
-set simplified_pi_gain = 145
+set simplified_pi_gain = 135
+set simplified_feedforward_gain = 140
 set simplified_dmax_gain = 0
-set simplified_feedforward_gain = 190
-set simplified_pitch_d_gain = 95
+set simplified_pitch_pi_gain = 105
 simplified_tuning apply
