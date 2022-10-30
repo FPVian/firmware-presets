@@ -142,34 +142,6 @@ resource MOTOR 3 B01
 #$ OPTION END
 
 
-#$ OPTION BEGIN (UNCHECKED): Cockroach
-# Filter Setting: Noisy, Tune: Freestyle
-# VTX is TBS Unify Pro32 Nano 5G8 V1.1
-set throttle_limit_type = SCALE
-set throttle_limit_percent = 70
-set vbat_warning_cell_voltage = 330
-set gyro_1_align_yaw = 1800
-set align_board_yaw = 180
-set motor_poles = 12
-set name = Cockroach
-feature SOFTSERIAL
-# serial
-serial 0 1 115200 57600 0 115200
-serial 1 64 115200 57600 0 115200
-serial 30 2048 115200 57600 0 115200
-#resource
-resource MOTOR 4 B04
-resource MOTOR 3 B05
-resource MOTOR 2 B06
-resource MOTOR 1 B07
-resource MOTOR 5 NONE
-resource SERIAL_TX 11 B03
-resource PINIO 1 B10
-set pinio_config = 129,1,1,1
-set pinio_box = 0,255,255,255
-#$ OPTION END
-
-
 #$ OPTION BEGIN (UNCHECKED): Mobeetle6
 # Filter Setting: Noisy
 # VTX is Happymodel Diamond F4 OPENVTX
