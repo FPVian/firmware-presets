@@ -1,8 +1,8 @@
-#$ TITLE: Analog VTX
+#$ TITLE: VTX
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS:  vtx, analog
+#$ KEYWORDS:  vtx, analog, HDzero
 #$ AUTHOR: FPVian
 #$ INCLUDE: presets/4.3/vtx/defaults.txt
 #$ PRIORITY: 2
@@ -12,6 +12,29 @@
 #START PRESETS
 
 #$ OPTION_GROUP BEGIN: VTX (Choose One)
+
+#$ OPTION BEGIN (UNCHECKED): HDzero Race 2 (Check VTX power manually afterwards)
+# vtxtable
+vtxtable bands 6
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 2 BOSCAM_B B FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 3 BOSCAM_E E FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F FACTORY    0 5760    0 5800    0    0    0    0
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 6 IMD6     I CUSTOM     0    0    0    0    0    0    0    0
+vtxtable powerlevels 3
+vtxtable powervalues 14 23 0
+vtxtable powerlabels 25 200 0
+
+set vtx_band = 5
+set vtx_channel = 1
+set vtx_low_power_disarm = UNTIL_FIRST_ARM
+set vtx_freq = 5658
+set vtx_power = 3
+#$ OPTION END
+
+
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX2-ultimate VTX Table(US Version) with Infinite DVR
 vtxtable bands 5

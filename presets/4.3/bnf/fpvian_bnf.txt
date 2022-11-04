@@ -21,6 +21,7 @@ serial 1 64 115200 57600 0 115200
 serial 3 1 115200 57600 0 115200
 serial 4 0 115200 57600 0 115200
 serial 5 0 115200 57600 0 115200
+set displayport_msp_serial = 3
 #resource
 resource MOTOR 1 B07
 resource MOTOR 2 B08

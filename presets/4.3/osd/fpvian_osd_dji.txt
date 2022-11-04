@@ -5,7 +5,6 @@
 #$ KEYWORDS: FPVian, OSD, DJI
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: FPVian Community Preset for OSD Configuration
-#$ DESCRIPTION: DJI - Send LQ on Channel 12
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 #$ DISCUSSION: Add PR URL here
 #$ HIDDEN: true
@@ -13,9 +12,27 @@
 
 # START DJI PRESETS
 
-# LQ on AUX 11/channel 15, RSSI on 12/16
-set rssi_channel = 15
-
 # OSD
-set osd_rssi_pos = 14832
+set osd_link_quality_pos = 14801
+set osd_rssi_dbm_pos = 14791
+set osd_warnings_pos = 14441
 set osd_avg_cell_voltage_pos = 14828
+set osd_flip_arrow_pos = 14799
+
+set osd_stat_min_rssi = OFF
+set osd_stat_min_rssi_dbm = ON
+set osd_stat_max_spd = OFF
+set osd_stat_battery = ON
+set osd_stat_max_curr = OFF
+set osd_stat_used_mah = OFF
+set osd_stat_min_link_quality = ON
+
+set osd_warn_core_temp = OFF
+set vcd_video_system = AUTO
+
+# Add display name for racing
+set display_name = FPVian
+set osd_display_name_pos = 2496
+
+# Canvas Mode Enable
+set osd_displayport_device = MSP

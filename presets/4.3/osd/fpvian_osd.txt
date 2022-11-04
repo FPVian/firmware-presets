@@ -4,7 +4,6 @@
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: OSD
 #$ AUTHOR: FPVian
-#$ DESCRIPTION: HDZero - set displayport_msp_serial = 0 for UART1
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
 #$ PRIORITY: 3
@@ -26,6 +25,42 @@
 
 #$ OPTION BEGIN (UNCHECKED): HD Zero
 #$ INCLUDE: presets/4.3/osd/fpvian_osd_hdzero.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+
+#$ OPTION_GROUP BEGIN: Set up MSP for Digital (Choose One)
+
+#$ OPTION BEGIN (UNCHECKED): use displayport on uart 1
+serial 0 1 115200 57600 0 115200
+set displayport_msp_serial = 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): use displayport on uart 2
+serial 1 1 115200 57600 0 115200
+set displayport_msp_serial = 1
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): use displayport on uart 3
+serial 2 1 115200 57600 0 115200
+set displayport_msp_serial = 2
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): use displayport on uart 4
+serial 3 1 115200 57600 0 115200
+set displayport_msp_serial = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): use displayport on uart 5
+serial 4 1 115200 57600 0 115200
+set displayport_msp_serial = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): use displayport on uart 6
+serial 5 1 115200 57600 0 115200
+set displayport_msp_serial = 5
 #$ OPTION END
 
 #$ OPTION_GROUP END

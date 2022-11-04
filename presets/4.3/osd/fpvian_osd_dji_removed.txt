@@ -1,0 +1,21 @@
+#$ TITLE: FPVian OSD DJI
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, OSD, DJI
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: FPVian Community Preset for OSD Configuration
+#$ DESCRIPTION: DJI - Send LQ on Channel 12
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ DISCUSSION: Add PR URL here
+#$ HIDDEN: true
+
+
+# START DJI PRESETS
+
+# LQ on AUX 11/channel 15, RSSI on 12/16
+set rssi_channel = 15
+
+# OSD
+set osd_rssi_pos = 14832
+set osd_avg_cell_voltage_pos = 14828
