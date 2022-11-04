@@ -38,6 +38,7 @@ serial 1 64 115200 57600 0 115200
 serial 3 1 115200 57600 0 115200
 serial 4 0 115200 57600 0 115200
 serial 5 0 115200 57600 0 115200
+set displayport_msp_serial = 3
 # resource
 resource MOTOR 2 B06
 resource MOTOR 1 B07
@@ -55,6 +56,7 @@ serial 1 64 115200 57600 0 115200
 serial 3 1 115200 57600 0 115200
 serial 4 0 115200 57600 0 115200
 serial 5 0 115200 57600 0 115200
+set displayport_msp_serial = 3
 # resource
 resource MOTOR 1 B09
 resource MOTOR 2 B08
@@ -91,6 +93,7 @@ set name = Apex
 set align_board_yaw = 180
 # serial
 serial 1 1 115200 57600 0 115200
+set displayport_msp_serial = 1
 # resource
 resource MOTOR 1 B04
 resource MOTOR 2 B05
