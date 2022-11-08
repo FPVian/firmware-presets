@@ -28,6 +28,8 @@ set osd_stat_used_mah = OFF
 set osd_stat_min_link_quality = ON
 
 set osd_warn_core_temp = OFF
+set osd_warn_rssi_dbm = ON
+set osd_rssi_dbm_alarm = -105
 
 # Add Display Name for Racing
 set display_name = FPVian

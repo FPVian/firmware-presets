@@ -197,7 +197,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf.txt",
-      "hash": "9411cb3ca1afc4fd65af446b264e6ae10f259613042f5d7dd2f1b9c8dc63dc57",
+      "hash": "414073cfdd38f8595d452c1a48c396f9860de24f11d67f6abf2db3cd5cbd15f2",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"
@@ -355,7 +355,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/fpvian_leds.txt",
-      "hash": "b59e5dc3e4e4fde33ce8c19bead2a5a9cec63e9a6a4b9fd1cb5d350564067597",
+      "hash": "47f75f7c994e03c918ad94bf65f2796ed5475a6c3324aec00d82fb2f39f88f8c",
       "title": "LEDS",
       "firmware_version": [
         "4.3"
@@ -477,7 +477,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd_analog.txt",
-      "hash": "c357f127fe60473aa81872cff6f7c568ccc45daa3a8e34cab9b2482aa5238e1e",
+      "hash": "72c65faf7eb2e9e98fd89628bc7dd47036e61bf6cf4b98d1e5552863d485e8f6",
       "title": "FPVian OSD Analog",
       "firmware_version": [
         "4.3"
@@ -495,7 +495,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd_dji.txt",
-      "hash": "e9fb8939aee95c60084370bb933447434bc7fdf0861a0d7800ea02f00fae329a",
+      "hash": "48fb6f94a00ab3551927fa81754ae2b76572a3e94333488a20bb21465e22cbf2",
       "title": "FPVian OSD DJI",
       "firmware_version": [
         "4.3"
@@ -513,6 +513,26 @@
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd_dji_long_range.txt",
+      "hash": "1a8f47cf8ba37c159c419f051b9f5a94604b57f8b86ba296ec885877626ef20d",
+      "title": "FPVian OSD DJI Long Range",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "OSD",
+        "DJI",
+        "Long",
+        "Range"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/fpvian_osd_dji_long_range_removed.txt",
       "hash": "c5a4846e45bdddae301c2bc20895e44369552212e027431a0bc9495ad1cab2ed",
       "title": "FPVian OSD DJI Long Range",
       "firmware_version": [
@@ -551,7 +571,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd_hdzero.txt",
-      "hash": "d5f0939a37d9ae583e3e0cef1e0b0e01dd7cb9b245f29ac5627fc9eceb44b0ed",
+      "hash": "56a4ccd66937e7ea83d51ae8d5e4a887e6ecb713248f31800bf6ded7135086e7",
       "title": "FPVian OSD HDZero",
       "firmware_version": [
         "4.3"
@@ -604,7 +624,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config_long_range.txt",
-      "hash": "f12623a53763e426dd027d946cc82b6344ba59c7bccbab11826b9db9f9f61f85",
+      "hash": "f1af964ee15e814639cd6d922d00c6edcba84de71b4b7ea097156c1fd7d56776",
       "title": "FPVian Config Long Range",
       "firmware_version": [
         "4.3"

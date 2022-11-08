@@ -13,11 +13,11 @@
 # START DJI PRESETS
 
 # OSD
-set osd_link_quality_pos = 14801
-set osd_rssi_dbm_pos = 14791
-set osd_warnings_pos = 14441
-set osd_avg_cell_voltage_pos = 14828
-set osd_flip_arrow_pos = 14799
+set osd_link_quality_pos = 14840
+set osd_rssi_dbm_pos = 14834
+set osd_warnings_pos = 14538
+set osd_avg_cell_voltage_pos = 14827
+set osd_flip_arrow_pos = 14825
 
 set osd_stat_min_rssi = OFF
 set osd_stat_min_rssi_dbm = ON
@@ -28,11 +28,13 @@ set osd_stat_used_mah = OFF
 set osd_stat_min_link_quality = ON
 
 set osd_warn_core_temp = OFF
+set osd_warn_rssi_dbm = ON
+set osd_rssi_dbm_alarm = -105
 set vcd_video_system = AUTO
 
 # Add display name for racing
 set display_name = FPVian
-set osd_display_name_pos = 2496
+set osd_display_name_pos = 2528
 
 # Canvas Mode Enable
 set osd_displayport_device = MSP
