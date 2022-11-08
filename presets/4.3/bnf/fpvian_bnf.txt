@@ -107,7 +107,7 @@ set yaw_lowpass_hz = 60
 #$ OPTION BEGIN (UNCHECKED): Super G
 # Filter Setting: Very Noisy
 set ibata_scale = 109
-set align_mag = CW270FLIP
+set mag_hardware = NONE
 set name = SuperG
 # serial
 serial 0 2 115200 57600 0 115200
