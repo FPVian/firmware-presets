@@ -13,6 +13,8 @@
 #START LONG RANGE PRESETS
 
 # GPS RESCUE
+set gps_rescue_use_mag = OFF
+
 set failsafe_procedure = GPS-RESCUE
 set gps_provider = UBLOX
 set gps_sbas_mode = AUTO
