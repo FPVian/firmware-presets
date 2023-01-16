@@ -65,28 +65,6 @@ resource MOTOR 4 B06
 #$ OPTION END
 
 
-#$ OPTION BEGIN (UNCHECKED): Wizard
-# Filter Setting: Noisy
-# VTX is AKK FX2-ultimate
-set name = Wizard X220HV
-set blackbox_device = NONE
-set motor_pwm_protocol = DSHOT300
-# serial
-serial 2 2048 115200 57600 0 115200
-serial 5 64 115200 57600 0 115200
-#resource remapping
-resource I2C_SDA 1 NONE
-resource MOTOR 3 B07
-timer B07 AF2
-dma pin B07 0
-# resource
-resource MOTOR 3 A03
-resource MOTOR 4 B00
-resource MOTOR 1 B07
-resource MOTOR 2 A02
-#$ OPTION END
-
-
 #$ OPTION BEGIN (UNCHECKED): Apex
 # Filter Setting: Noisy
 set name = Apex
