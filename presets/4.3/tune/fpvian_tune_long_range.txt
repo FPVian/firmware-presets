@@ -15,7 +15,7 @@
 set pidsum_limit_yaw = 150
 set iterm_windup = 30
 
-set dyn_idle_min_rpm = 35
+set dyn_idle_min_rpm = 20
 
 # PIDS
 set vbat_sag_compensation = 100
@@ -24,6 +24,7 @@ set iterm_relax_cutoff = 10
 set throttle_boost = 0
 
 set simplified_master_multiplier = 130
+set simplified_i_gain = 60
 set simplified_d_gain = 145
 set simplified_dmax_gain = 0
 set simplified_pitch_pi_gain = 105

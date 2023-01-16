@@ -42,6 +42,7 @@ osd_stat_max_dist = ON
 set osd_warn_core_temp = OFF
 set osd_warn_rssi_dbm = ON
 set osd_rssi_dbm_alarm = -114
+set osd_cap_alarm = 5000
 set vcd_video_system = AUTO
 
 # Canvas Mode Enable
