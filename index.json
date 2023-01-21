@@ -197,7 +197,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf.txt",
-      "hash": "af75da6208669c7299e9b14a3951c911e61dd94b480de0b35108e787c6347da4",
+      "hash": "7fb5808eb978ef03db2d8f72becf3a36c3130dc79604904305ae709eb5365157",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"

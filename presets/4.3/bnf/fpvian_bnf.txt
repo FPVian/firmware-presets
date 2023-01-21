@@ -65,6 +65,19 @@ resource MOTOR 4 B06
 #$ OPTION END
 
 
+#$ OPTION BEGIN (UNCHECKED): Glide Purp
+# Filter Setting: Clean
+set name = Glide Purp
+set align_board_yaw = 180
+# serial
+serial 1 64 115200 57600 0 115200
+serial 4 0 115200 57600 0 115200
+set displayport_msp_serial = 5
+# resource
+set motor_output_reordering = 3,2,1,0,4,5,6,7
+#$ OPTION END
+
+
 #$ OPTION BEGIN (UNCHECKED): Apex
 # Filter Setting: Noisy
 set name = Apex
