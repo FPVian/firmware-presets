@@ -65,25 +65,16 @@ resource MOTOR 4 B06
 #$ OPTION END
 
 
-#$ OPTION BEGIN (UNCHECKED): Wizard
-# Filter Setting: Noisy
-# VTX is AKK FX2-ultimate
-set name = Wizard X220HV
-set blackbox_device = NONE
-set motor_pwm_protocol = DSHOT300
+#$ OPTION BEGIN (UNCHECKED): Glide Purp
+# Filter Setting: Clean
+set name = Glide Purp
+set align_board_yaw = 180
 # serial
-serial 2 2048 115200 57600 0 115200
-serial 5 64 115200 57600 0 115200
-#resource remapping
-resource I2C_SDA 1 NONE
-resource MOTOR 3 B07
-timer B07 AF2
-dma pin B07 0
+serial 1 64 115200 57600 0 115200
+serial 4 0 115200 57600 0 115200
+set displayport_msp_serial = 5
 # resource
-resource MOTOR 3 A03
-resource MOTOR 4 B00
-resource MOTOR 1 B07
-resource MOTOR 2 A02
+set motor_output_reordering = 3,2,1,0,4,5,6,7
 #$ OPTION END
 
 
