@@ -25,7 +25,7 @@ set osd_rssi_dbm_pos = 14743
 set osd_stat_bitmask = 42086564
 set osd_warn_bitmask = 171903
 
-set osd_rsnr_alarm = 1
+set osd_rsnr_alarm = 2
 set osd_rssi_dbm_alarm = -105
 
 # Add display name for racing

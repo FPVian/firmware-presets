@@ -19,15 +19,16 @@ set vcd_video_system = PAL
 set osd_canvas_height = 16
 
 # OSD
-set osd_link_quality_pos = 14837
-set osd_rssi_dbm_pos = 14832
-set osd_warnings_pos = 14439
-set osd_avg_cell_voltage_pos = 14825
-set osd_flip_arrow_pos = 14831
+set osd_link_quality_pos = 14836
+set osd_rssi_dbm_pos = 14831
+set osd_rsnr_pos = 14842
+set osd_warnings_pos = 14442
+set osd_avg_cell_voltage_pos = 14824
+set osd_flip_arrow_pos = 14830
 
 set osd_stat_bitmask = 42086564
 set osd_warn_bitmask = 171903
 
-set osd_rsnr_alarm = 1
+set osd_rsnr_alarm = 2
 set osd_rssi_dbm_alarm = -105
 
