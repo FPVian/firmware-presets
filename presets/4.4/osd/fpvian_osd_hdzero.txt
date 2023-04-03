@@ -29,6 +29,6 @@ set osd_rsnr_alarm = 1
 set osd_rssi_dbm_alarm = -105
 
 # Add display name for racing
-set display_name = FPVian
-set osd_display_name_pos = 2529
+set pilot_name = FPVian
+set osd_pilot_name_pos = 2529
 

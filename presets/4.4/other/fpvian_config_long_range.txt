@@ -29,9 +29,6 @@ set gps_rescue_alt_mode = FIXED_ALT
 set gps_rescue_initial_alt = 100
 
 #CONFIGURATION TAB
-set yaw_motors_reversed = ON
-set motor_pwm_protocol = DSHOT600
-set dshot_bidir = ON
 set small_angle = 180
 
 # feature
@@ -73,3 +70,9 @@ set bat_capacity = 5000
 # BLACKBOX TAB
 set debug_mode = GYRO_SCALED
 set blackbox_sample_rate = 1/8
+
+
+# MOTORS TAB
+set yaw_motors_reversed = ON
+set motor_pwm_protocol = DSHOT600
+set dshot_bidir = ON

@@ -16,13 +16,12 @@
 set craft_name = Glide Black
 set align_board_roll = 180
 set align_board_pitch = 180
+set motor_output_reordering = 3,2,1,0,4,5,6,7
 # serial
 serial 1 64 115200 57600 0 115200
 serial 3 131073 115200 57600 0 115200
 serial 4 0 115200 57600 0 115200
 serial 5 0 115200 57600 0 115200
-#resource
-set motor_output_reordering = 3,2,1,0,4,5,6,7
 #$ OPTION END
 
 
@@ -66,12 +65,11 @@ resource MOTOR 4 B06
 # Filter Setting: Clean
 set craft_name = Glide Purp
 set align_board_yaw = 180
+set motor_output_reordering = 3,2,1,0,4,5,6,7
 # serial
 serial 1 64 115200 57600 0 115200
 serial 4 0 115200 57600 0 115200
 set displayport_msp_serial = 5
-# resource
-set motor_output_reordering = 3,2,1,0,4,5,6,7
 #$ OPTION END
 
 
@@ -143,15 +141,12 @@ set align_board_yaw = 90
 set motor_poles = 12
 set pid_process_denom = 1
 feature -RX_SERIAL
+feature RX_SPI
 set craft_name = Mobeetle6
 set expresslrs_uid = 234,80,100,128,17,19
+set motor_output_reordering = 3,2,1,0,4,5,6,7
 # serial
 serial 1 2048 115200 57600 0 115200
-# resources
-resource MOTOR 1 B08
-resource MOTOR 2 B07
-resource MOTOR 3 B06
-resource MOTOR 4 B10
 #$ OPTION END
 
 

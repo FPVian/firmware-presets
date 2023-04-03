@@ -12,9 +12,6 @@
 
 
 #CONFIGURATION TAB
-set yaw_motors_reversed = ON
-set motor_pwm_protocol = DSHOT300
-set dshot_bidir = ON
 set small_angle = 180
 
 # feature
@@ -50,3 +47,10 @@ beacon RX_SET
 set vbat_max_cell_voltage = 435
 set vbat_min_cell_voltage = 300
 set vbat_warning_cell_voltage = 320
+
+
+#MOTORS TAB
+set yaw_motors_reversed = ON
+set motor_pwm_protocol = DSHOT300
+set dshot_bidir = ON
+

@@ -1078,7 +1078,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/fpvian_bnf.txt",
-      "hash": "adf1e4d9d67cc55c545f2039728061af756afc1e47a2ecf747a9892c2c22368a",
+      "hash": "f29af7addf9394adff1dcb922c2c5dc0ade22b72012ed93ec3ccf0c0bc71c7fe",
       "title": "Quad Specific",
       "firmware_version": [
         "4.4"
@@ -1229,7 +1229,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/fpvian_osd_analog.txt",
-      "hash": "f427398584ece1636c4591fa12b4e0d8810b91b9a227e5c76f21c56ca2e1297f",
+      "hash": "7add985093b113ad627e7d4a3c0fb720b0a2eac20a72d79239c353c1a592bfe6",
       "title": "FPVian OSD Analog",
       "firmware_version": [
         "4.4"
@@ -1247,7 +1247,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/fpvian_osd_dji.txt",
-      "hash": "8c1d0f467300a9a2b5dd315475b898f8f371f95c9e0fd2960dbfb141ed68f483",
+      "hash": "2f6991f1dc18573f558bc21b5d44fe7240f5bacf7575246f70d7b345bf18c8cf",
       "title": "FPVian OSD DJI",
       "firmware_version": [
         "4.4"
@@ -1265,7 +1265,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/fpvian_osd_dji_long_range.txt",
-      "hash": "54e7bb05594c7bfbc8f4aefa028bba43919ebc8839a689dc53b003187a0e8712",
+      "hash": "32752260b67ba1022190e0c0d876b5277095ccb899da177b99f131a1a223d264",
       "title": "FPVian OSD DJI Long Range",
       "firmware_version": [
         "4.4"
@@ -1285,7 +1285,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/fpvian_osd_hdzero.txt",
-      "hash": "b771d1d0318851b54fabb810b4ef82d6b54249db88033f78fc0537e32e96e904",
+      "hash": "1af2547bdd22041591a7af0b8c21871f84bdf91ce714031e1d9181da17bf23ec",
       "title": "FPVian OSD HDZero",
       "firmware_version": [
         "4.4"
@@ -1338,7 +1338,7 @@
     },
     {
       "fullPath": "presets/4.4/other/fpvian_config_long_range.txt",
-      "hash": "5fb924f9d8b09903d6b26fc16ae28403f3a7c40d3758f4ad824ed716de7969c4",
+      "hash": "9a5e6857f78a51281050b6adb6d784f1a17c4bdba663a627ff3eaca8172062cd",
       "title": "FPVian Config Long Range",
       "firmware_version": [
         "4.4"
@@ -1356,7 +1356,7 @@
     },
     {
       "fullPath": "presets/4.4/other/fpvian_config_whoop.txt",
-      "hash": "3ab10ae2e3a8894d502c8665af3c1792aba38bf4a7ac612f89e5765bfb41f5dd",
+      "hash": "16519c602f976890e2db93b4e06ae7f7d6895a744c9b4a0c5139b338de7e95f3",
       "title": "FPVian Config Whoop",
       "firmware_version": [
         "4.4"
