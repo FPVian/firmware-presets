@@ -93,18 +93,12 @@ set yaw_lowpass_hz = 60
 #$ OPTION BEGIN (UNCHECKED): Super G
 # Filter Setting: Very Noisy
 set ibata_scale = 109
-set mag_hardware = NONE
 set craft_name = SuperG
+set motor_output_reordering = 1,0,3,2,4,5,6,7
 # serial
 serial 0 2 115200 57600 0 115200
-serial 1 1 115200 57600 0 115200
+serial 1 131073 115200 57600 0 115200
 serial 5 64 115200 57600 0 115200
-set displayport_msp_serial = 1
-# resource
-resource MOTOR 1 A09
-resource MOTOR 2 A08
-resource MOTOR 3 C09
-resource MOTOR 4 A10
 #$ OPTION END
 
 

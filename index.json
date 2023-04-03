@@ -1078,7 +1078,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/fpvian_bnf.txt",
-      "hash": "f29af7addf9394adff1dcb922c2c5dc0ade22b72012ed93ec3ccf0c0bc71c7fe",
+      "hash": "a61453cd851e3e344ecf73903953c0c0a56968a02f8ab25f7a2b7cc2b5503efe",
       "title": "Quad Specific",
       "firmware_version": [
         "4.4"
@@ -1197,7 +1197,7 @@
     },
     {
       "fullPath": "presets/4.4/modes/fpvian_modes.txt",
-      "hash": "cf861a5456b0ed826bc661f125f2e67373b6a2cc89830ad9f6c9a62ce3630018",
+      "hash": "2c82e3a12bcb4e7eb257c5f3be9b5ef51729eca3a551e3362c192dd9dd2f65e2",
       "title": "Modes",
       "firmware_version": [
         "4.4"
@@ -1265,7 +1265,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/fpvian_osd_dji_long_range.txt",
-      "hash": "c1925179c5de6a32e1608f293875da452f90ba3b7f4e56dbbba8d94e0356db5f",
+      "hash": "54a41ab9c8ed604098a23c016d4577e9cd16ea40bc8bbe346cda91ac08c475f3",
       "title": "FPVian OSD DJI Long Range",
       "firmware_version": [
         "4.4"
@@ -1338,7 +1338,7 @@
     },
     {
       "fullPath": "presets/4.4/other/fpvian_config_long_range.txt",
-      "hash": "9a5e6857f78a51281050b6adb6d784f1a17c4bdba663a627ff3eaca8172062cd",
+      "hash": "390bcaac60e80996a00b8e6b17a1e30b015b179fa0e38cbc5fff2984c5bb011e",
       "title": "FPVian Config Long Range",
       "firmware_version": [
         "4.4"

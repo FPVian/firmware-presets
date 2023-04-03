@@ -11,24 +11,23 @@
 #START LONG RANGE PRESETS
 
 # GPS RESCUE
-set gps_rescue_use_mag = OFF
-
 set failsafe_procedure = GPS-RESCUE
 set gps_provider = UBLOX
 set gps_sbas_mode = AUTO
 set gps_auto_baud = ON
 set gps_ublox_use_galileo = ON
-set gps_rescue_angle = 45
-set gps_rescue_descent_dist = 50
-set gps_rescue_yaw_p = 90
+set gps_rescue_ground_speed = 1500
+set gps_rescue_throttle_hover = 1285
+set gps_rescue_pitch_angle_max = 45
+set gps_rescue_descent_dist = 5
 set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
-set gps_rescue_min_sats = 5
-set gps_rescue_min_dth = 50
+set gps_rescue_min_start_dist = 20
 set gps_rescue_allow_arming_without_fix = OFF
 set gps_rescue_alt_mode = FIXED_ALT
-set gps_rescue_initial_alt = 100
+set gps_rescue_return_alt = 100
 
 #CONFIGURATION TAB
+set baro_hardware = AUTO
 set small_angle = 180
 
 # feature
