@@ -117,14 +117,9 @@ serial 5 1024 115200 57600 0 115200
 # Filter Setting: Very Noisy
 # VTX is HDZero Race v2
 set craft_name = Switchback Red
+set motor_output_reordering = 1,0,3,2,4,5,6,7
 # serial
-serial 1 1 115200 57600 0 115200
-set displayport_msp_serial = 1
-#resource
-resource MOTOR 2 B04
-resource MOTOR 1 B05
-resource MOTOR 4 B00
-resource MOTOR 3 B01
+serial 1 131073 115200 57600 0 115200
 #$ OPTION END
 
 
