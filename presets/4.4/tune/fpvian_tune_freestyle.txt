@@ -1,0 +1,25 @@
+#$ TITLE: FPVian Freestyle Tune
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, Tune, Freestyle
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: 
+#$ HIDDEN: true
+
+
+#START FREESTYLE PRESETS
+
+set dyn_idle_min_rpm = 30
+set tpa_mode = PD
+
+# PIDS
+set vbat_sag_compensation = 100
+set throttle_boost = 0
+
+set simplified_i_gain = 150
+set simplified_pi_gain = 110
+set simplified_dmax_gain = 0
+set simplified_feedforward_gain = 140
+set simplified_pitch_pi_gain = 105
+simplified_tuning apply

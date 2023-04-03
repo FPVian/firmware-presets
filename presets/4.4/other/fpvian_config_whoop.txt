@@ -1,0 +1,52 @@
+#$ TITLE: FPVian Config Whoop
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, config, long range
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: 
+#$ HIDDEN: true
+
+
+#START WHOOP PRESETS
+
+
+#CONFIGURATION TAB
+set yaw_motors_reversed = ON
+set motor_pwm_protocol = DSHOT300
+set dshot_bidir = ON
+set small_angle = 180
+
+# feature
+feature -AIRMODE
+feature TELEMETRY
+feature RX_SERIAL
+feature OSD
+
+# beeper
+beeper -GYRO_CALIBRATED
+beeper -DISARMING
+beeper -ARMING
+beeper -ARMING_GPS_FIX
+beeper -BAT_LOW
+beeper -GPS_STATUS
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper -READY_BEEP
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -SYSTEM_INIT
+beeper -ON_USB
+beeper -CRASH_FLIP
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+
+# BATTERY TAB
+set vbat_max_cell_voltage = 435
+set vbat_min_cell_voltage = 300
+set vbat_warning_cell_voltage = 320

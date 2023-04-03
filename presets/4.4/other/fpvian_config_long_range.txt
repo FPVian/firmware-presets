@@ -1,0 +1,75 @@
+#$ TITLE: FPVian Config Long Range
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, config, long range
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: 
+#$ HIDDEN: true
+
+
+#START LONG RANGE PRESETS
+
+# GPS RESCUE
+set gps_rescue_use_mag = OFF
+
+set failsafe_procedure = GPS-RESCUE
+set gps_provider = UBLOX
+set gps_sbas_mode = AUTO
+set gps_auto_baud = ON
+set gps_ublox_use_galileo = ON
+set gps_rescue_angle = 45
+set gps_rescue_descent_dist = 50
+set gps_rescue_yaw_p = 90
+set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
+set gps_rescue_min_sats = 5
+set gps_rescue_min_dth = 50
+set gps_rescue_allow_arming_without_fix = OFF
+set gps_rescue_alt_mode = FIXED_ALT
+set gps_rescue_initial_alt = 100
+
+#CONFIGURATION TAB
+set yaw_motors_reversed = ON
+set motor_pwm_protocol = DSHOT600
+set dshot_bidir = ON
+set small_angle = 180
+
+# feature
+feature -AIRMODE
+feature -LED_STRIP
+feature GPS
+feature TELEMETRY
+feature RX_SERIAL
+feature OSD
+
+# beeper
+beeper -GYRO_CALIBRATED
+beeper -DISARMING
+beeper -ARMING
+beeper -BAT_CRIT_LOW
+beeper -BAT_LOW
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -SYSTEM_INIT
+beeper -ON_USB
+beeper -CRASH_FLIP
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE
+beeper -RC_SMOOTHING_INIT_FAIL
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+
+# BATTERY TAB
+set vbat_warning_cell_voltage = 310
+set vbat_min_cell_voltage = 300
+set bat_capacity = 5000
+
+
+# BLACKBOX TAB
+set debug_mode = GYRO_SCALED
+set blackbox_sample_rate = 1/8

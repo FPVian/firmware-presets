@@ -1,0 +1,24 @@
+#$ TITLE: FPVian Filters Noisy
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: FILTERS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, Filters
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: 
+#$ HIDDEN: true
+
+
+#START NOISY PRESETS
+
+set gyro_lpf1_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set rpm_filter_harmonics = 2
+set dyn_notch_count = 3
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 125
+set simplified_gyro_filter_multiplier = 130
+set simplified_dterm_filter_multiplier = 130
+
+simplified_tuning apply
+

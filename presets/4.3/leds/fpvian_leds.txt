@@ -8,6 +8,7 @@
 #$ INCLUDE: presets/4.3/leds/defaults.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
 #$ PRIORITY: 1
+#$ HIDDEN: true
 
 
 #START PRESETS

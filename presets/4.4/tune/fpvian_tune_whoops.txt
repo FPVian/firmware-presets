@@ -1,0 +1,31 @@
+#$ TITLE: FPVian Whoop Tune
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, Tune, Whoops
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: 
+#$ HIDDEN: true
+
+
+#Try set mixer_type = DYNAMIC
+
+#START WHOOP PRESETS
+
+set dyn_idle_min_rpm = 65
+set tpa_mode = PD
+
+set thr_mid = 100
+set thr_expo = 50
+set level_limit = 75
+
+# PIDS
+set vbat_sag_compensation = 100
+set throttle_boost = 0
+
+set simplified_d_gain = 200
+set simplified_pi_gain = 135
+set simplified_feedforward_gain = 140
+set simplified_dmax_gain = 0
+set simplified_pitch_pi_gain = 105
+simplified_tuning apply

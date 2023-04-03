@@ -1,0 +1,31 @@
+#$ TITLE: FPVian OSD DJI
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, OSD, DJI
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: 
+#$ HIDDEN: true
+
+
+# START DJI PRESETS
+
+# set vcd_video_system = HD
+# set osd_canvas_width = 53
+# set osd_canvas_height = 20
+# set displayport_msp_fonts = 0,1,2,3
+set osd_displayport_device = MSP
+
+# OSD
+set osd_link_quality_pos = 14837
+set osd_rssi_dbm_pos = 14832
+set osd_warnings_pos = 14439
+set osd_avg_cell_voltage_pos = 14825
+set osd_flip_arrow_pos = 14831
+
+set osd_stat_bitmask = 42086564
+set osd_warn_bitmask = 171903
+
+set osd_rsnr_alarm = 1
+set osd_rssi_dbm_alarm = -105
+

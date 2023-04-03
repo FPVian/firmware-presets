@@ -1,5 +1,5 @@
 #$ TITLE: Filters
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: Filters
@@ -7,25 +7,24 @@
 #$ DESCRIPTION: 
 #$ FORCE_OPTIONS_REVIEW: TRUE
 #$ PRIORITY: 3
-#$ HIDDEN: true
 
 
 #$ OPTION_GROUP BEGIN: Noise Level (Choose One)
 
 #$ OPTION BEGIN (UNCHECKED): Very Clean
-#$ INCLUDE: presets/4.3/filters/fpvian_filters_very_clean.txt
+#$ INCLUDE: presets/4.4/filters/fpvian_filters_very_clean.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Clean
-#$ INCLUDE: presets/4.3/filters/fpvian_filters_clean.txt
+#$ INCLUDE: presets/4.4/filters/fpvian_filters_clean.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Noisy
-#$ INCLUDE: presets/4.3/filters/fpvian_filters_noisy.txt
+#$ INCLUDE: presets/4.4/filters/fpvian_filters_noisy.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Very Noisy or Long Range
-#$ INCLUDE: presets/4.3/filters/fpvian_filters_very_noisy.txt
+#$ INCLUDE: presets/4.4/filters/fpvian_filters_very_noisy.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

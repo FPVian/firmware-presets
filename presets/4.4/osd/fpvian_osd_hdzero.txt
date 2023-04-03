@@ -1,0 +1,34 @@
+#$ TITLE: FPVian OSD HDZero
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, OSD, HDZero
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: 
+#$ HIDDEN: true
+
+
+# START HDZERO PRESETS
+
+# set vcd_video_system = HD
+# set displayport_msp_fonts = 0,1,2,3
+set osd_displayport_device = MSP
+
+# OSD
+set osd_link_quality_pos = 14833
+set osd_warnings_pos = 14441
+set osd_avg_cell_voltage_pos = 14825
+set osd_flip_arrow_pos = 14831
+set osd_vbat_pos = 2551
+set osd_rssi_dbm_pos = 14743
+
+set osd_stat_bitmask = 42086564
+set osd_warn_bitmask = 171903
+
+set osd_rsnr_alarm = 1
+set osd_rssi_dbm_alarm = -105
+
+# Add display name for racing
+set display_name = FPVian
+set osd_display_name_pos = 2529
+

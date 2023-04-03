@@ -1,5 +1,5 @@
 #$ TITLE: Config
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OTHER
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: config
@@ -9,21 +9,20 @@
 #$ DESCRIPTION: Set up Name, FC Alignment, Ports, and Motors
 #$ FORCE_OPTIONS_REVIEW: TRUE
 #$ PRIORITY: 5
-#$ HIDDEN: true
 
 
 #$ OPTION_GROUP BEGIN: Flight Style (Choose One)
 
 #$ OPTION BEGIN (UNCHECKED): Freestyle/Racing
-#$ INCLUDE: presets/4.3/other/fpvian_config_freestyle_racing.txt
+#$ INCLUDE: presets/4.4/other/fpvian_config_freestyle_racing.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Long Range
-#$ INCLUDE: presets/4.3/other/fpvian_config_long_range.txt
+#$ INCLUDE: presets/4.4/other/fpvian_config_long_range.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Whoop
-#$ INCLUDE: presets/4.3/other/fpvian_config_whoop.txt
+#$ INCLUDE: presets/4.4/other/fpvian_config_whoop.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
