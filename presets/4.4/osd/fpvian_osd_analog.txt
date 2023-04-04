@@ -1,0 +1,29 @@
+#$ TITLE: FPVian OSD Analog
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, OSD, Analog
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: 
+#$ HIDDEN: true
+
+
+# START ANALOG PRESETS
+
+# OSD
+set osd_link_quality_pos = 14740
+set osd_rssi_dbm_pos = 14735
+set osd_rsnr_pos = 14746
+set osd_warnings_pos = 14441
+set osd_avg_cell_voltage_pos = 14728
+set osd_flip_arrow_pos = 14734
+
+set osd_stat_bitmask = 42086564
+set osd_warn_bitmask = 171903
+
+set osd_rsnr_alarm = 2
+set osd_rssi_dbm_alarm = -105
+
+# Add Display Name for Racing
+set pilot_name = FPVian
+set osd_pilot_name_pos = 14721

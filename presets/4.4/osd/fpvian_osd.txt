@@ -1,0 +1,34 @@
+#$ TITLE: OSD
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: OSD
+#$ AUTHOR: FPVian
+#$ FORCE_OPTIONS_REVIEW: TRUE
+#$ PRIORITY: 3
+
+
+#$ OPTION_GROUP BEGIN: Video System (Choose One)
+
+#$ OPTION BEGIN (UNCHECKED): DJI: Freestyle
+#$ INCLUDE: presets/4.4/osd/fpvian_osd_dji.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DJI: Long Range
+#$ INCLUDE: presets/4.4/osd/fpvian_osd_dji_long_range.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Analog
+#$ INCLUDE: presets/4.4/osd/fpvian_osd_analog.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): HD Zero
+#$ INCLUDE: presets/4.4/osd/fpvian_osd_hdzero.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Walksnail
+#$ INCLUDE: presets/4.4/osd/fpvian_osd_walksnail.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+

@@ -8,6 +8,7 @@
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
 #$ PRIORITY: 3
+#$ HIDDEN: true
 
 
 #START PRESETS

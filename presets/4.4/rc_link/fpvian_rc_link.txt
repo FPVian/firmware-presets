@@ -1,15 +1,12 @@
 #$ TITLE: RC Link
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: RC_LINK
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: RC, Link
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: 
-#$ INCLUDE: presets/4.3/rc_link/defaults.txt
-#$ INCLUDE: presets/4.3/rc_smoothing/defaults.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
 #$ PRIORITY: 3
-#$ HIDDEN: true
 
 
 #START PRESETS
@@ -58,29 +55,3 @@ set feedforward_boost = 5
 
 #$ OPTION_GROUP END
 
-
-#$ OPTION_GROUP BEGIN: RC Smoothing
-
-#$ OPTION BEGIN (UNCHECKED): Cinematic Smoothing
-set rc_smoothing_auto_factor = 35
-set rc_smoothing_auto_factor_throttle = 28
-set rc_smoothing_setpoint_cutoff = 12
-set rc_smoothing_feedforward_cutoff = 12
-set rc_smoothing_throttle_cutoff = 20
-
-set feedforward_smooth_factor = 20
-set feedforward_jitter_factor = 15
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Ultra Cinematic Smoothing
-set rc_smoothing_auto_factor = 90
-set rc_smoothing_auto_factor_throttle = 28
-set rc_smoothing_setpoint_cutoff = 6
-set rc_smoothing_feedforward_cutoff = 6
-set rc_smoothing_throttle_cutoff = 20
-
-set feedforward_smooth_factor = 40
-set feedforward_jitter_factor = 20
-#$ OPTION END
-
-#$ OPTION_GROUP END

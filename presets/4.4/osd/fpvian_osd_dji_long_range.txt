@@ -1,0 +1,49 @@
+#$ TITLE: FPVian OSD DJI Long Range
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FPVian, OSD, DJI, Long, Range
+#$ AUTHOR: FPVian
+#$ DESCRIPTION: 
+#$ HIDDEN: true
+
+
+# START DJI LONG-RANGE PRESETS
+
+set vcd_video_system = HD
+set osd_canvas_width = 53
+set osd_canvas_height = 20
+set displayport_msp_fonts = 0,1,2,3
+set osd_displayport_device = MSP
+
+# OSD
+set osd_units = IMPERIAL
+
+set osd_link_quality_pos = 15969
+set osd_rssi_dbm_pos = 14971
+set osd_rsnr_pos = 15976
+set osd_tim_2_pos = 14946
+set osd_remaining_time_estimate_pos = 14915
+set osd_current_pos = 14496
+set osd_mah_drawn_pos = 14955
+set osd_gps_speed_pos = 14560
+set osd_gps_lon_pos = 64518
+set osd_gps_lat_pos = 49184
+set osd_gps_sats_pos = 14336
+set osd_home_dir_pos = 14359
+set osd_home_dist_pos = 14361
+set osd_flight_dist_pos = 14368
+set osd_altitude_pos = 30726
+set osd_warnings_pos = 14517
+set osd_avg_cell_voltage_pos = 14962
+set osd_flip_arrow_pos = 14969
+set osd_efficiency_pos = 14528
+
+set osd_stat_bitmask = 42348724
+set osd_warn_bitmask = 171903
+
+set osd_tim2 = 2049
+set osd_rsnr_alarm = 4
+set osd_rssi_dbm_alarm = -114
+set osd_cap_alarm = 5000
+

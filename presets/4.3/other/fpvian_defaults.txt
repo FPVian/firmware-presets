@@ -6,6 +6,7 @@
 #$ AUTHOR: FPVian
 #$ DESCRIPTION: Tuning defaults not included in presets
 #$ PRIORITY: 0
+#$ HIDDEN: true
 
 
 #$ OPTION BEGIN (UNCHECKED): Tune

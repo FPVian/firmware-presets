@@ -125,7 +125,8 @@
   },
   "uniqueValues": {
     "firmware_version": [
-      "4.3"
+      "4.3",
+      "4.4"
     ],
     "category": [
       "BNF",
@@ -197,7 +198,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf.txt",
-      "hash": "7fb5808eb978ef03db2d8f72becf3a36c3130dc79604904305ae709eb5365157",
+      "hash": "238d9e22976ff684906fe1e7bdac8a386b1887b1c168ac448da52c94cc44ed96",
       "title": "Quad Specific",
       "firmware_version": [
         "4.3"
@@ -210,7 +211,8 @@
       ],
       "author": "FPVian",
       "priority": 6,
-      "force_options_review": true
+      "force_options_review": true,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/bnf/fpvian_bnf_removed.txt",
@@ -251,7 +253,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/fpvian_filters.txt",
-      "hash": "fb7641b3e3b1daff840866ae3bb52eb2add4db9377cb54ffd689c2413b131c93",
+      "hash": "7591bffaf4720eaede7815d236ecdfa2c04112e38d63e85490a53c6f96540047",
       "title": "Filters",
       "firmware_version": [
         "4.3"
@@ -263,7 +265,8 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 3
+      "priority": 3,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/filters/fpvian_filters_clean.txt",
@@ -355,7 +358,7 @@
     },
     {
       "fullPath": "presets/4.3/leds/fpvian_leds.txt",
-      "hash": "47f75f7c994e03c918ad94bf65f2796ed5475a6c3324aec00d82fb2f39f88f8c",
+      "hash": "71e243c42574d60270bc139ad0444d81496e24c10459b6df6b3dc9f56f8c003d",
       "title": "LEDS",
       "firmware_version": [
         "4.3"
@@ -367,7 +370,8 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 1
+      "priority": 1,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/leds/fpvian_leds_removed.txt",
@@ -410,7 +414,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/fpvian_modes.txt",
-      "hash": "4bc8563277233bbcf9ea68fca0786dd03e46fd13586bbb83c79d1f907413826a",
+      "hash": "ded19a57d612f1c615163f6a275acea933cba1fc01e4cb09911c78be164101bc",
       "title": "Modes",
       "firmware_version": [
         "4.3"
@@ -422,7 +426,8 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 3
+      "priority": 3,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/modes/fpvian_modes_removed.txt",
@@ -461,7 +466,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd.txt",
-      "hash": "6c3257b9e64f52efe486d8dbea4229a34536eb00b9fa585b64f464d7582367c3",
+      "hash": "636108bae12119d54e69c9ae7a4dc3957a2c661042957938eca259ee98ad150d",
       "title": "OSD",
       "firmware_version": [
         "4.3"
@@ -473,7 +478,8 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 3
+      "priority": 3,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/osd/fpvian_osd_analog.txt",
@@ -589,7 +595,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config.txt",
-      "hash": "c9f2e150595d5b5ffa6634d84ebec6fa1a7690c98534ff5419fcb168f15777de",
+      "hash": "8e9476381c5dbc9d304b39cba0cfe1ce9d7518674594b2413f754b10b2126324",
       "title": "Config",
       "firmware_version": [
         "4.3"
@@ -601,7 +607,8 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 5
+      "priority": 5,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/other/fpvian_config_freestyle_racing.txt",
@@ -660,7 +667,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fpvian_defaults.txt",
-      "hash": "c65b43e89a49519db22e88dc745f7342ea93d653ec4df7fd3c7fa24b7e13eb75",
+      "hash": "b43ffa60160e28b4359bb2ffe3dd564557c00246aa74e6abb27b229320b58779",
       "title": "Defaults",
       "firmware_version": [
         "4.3"
@@ -671,7 +678,8 @@
         "defaults"
       ],
       "author": "FPVian",
-      "priority": 0
+      "priority": 0,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/rates/defaults.txt",
@@ -693,7 +701,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/fpvian_rates.txt",
-      "hash": "3d9a90799e69be83b91ab0cf953be55e0d80c9a6fdadde74cdbc03a66fca4f51",
+      "hash": "1c426a6e34eeadd791b0092f3bc80b463fa22671a31ced95d59efd8bd4511eb9",
       "title": "Rates",
       "firmware_version": [
         "4.3"
@@ -705,7 +713,8 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 3
+      "priority": 3,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
@@ -730,7 +739,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/fpvian_rc_link.txt",
-      "hash": "589533186aa0d7cead7ecffd1cc0babd69dd25325ecfe335b6e565913282c0c9",
+      "hash": "d04fff969c3a0f89bf4c0d172331fc6d38e874202c95194ad3ce9175cc806283",
       "title": "RC Link",
       "firmware_version": [
         "4.3"
@@ -743,7 +752,8 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 3
+      "priority": 3,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/rc_link/fpvian_rc_link_removed.txt",
@@ -885,7 +895,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune.txt",
-      "hash": "ab56797d10158f6c07877c77ca51205690b9ff9324c5c7e0e054c9ac38fbce9f",
+      "hash": "21e675f941ed273ada0362483628d2c26e0357f121fc59f7324909d2ad2720c5",
       "title": "Tune",
       "firmware_version": [
         "4.3"
@@ -897,7 +907,8 @@
       ],
       "author": "FPVian",
       "force_options_review": true,
-      "priority": 4
+      "priority": 4,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/tune/fpvian_tune_freestyle.txt",
@@ -1030,7 +1041,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/fpvian_vtx.txt",
-      "hash": "a11db6e5ea8db2eec2d847c74db21d3cfb615d1b2febd52cbf2c1c808c6d54a7",
+      "hash": "76b838a3e299e07a993d883e3e05732e16cd8436502d7ff05d861c67a0ec4c00",
       "title": "VTX",
       "firmware_version": [
         "4.3"
@@ -1044,7 +1055,8 @@
       ],
       "author": "FPVian",
       "priority": 2,
-      "force_options_review": true
+      "force_options_review": true,
+      "hidden": true
     },
     {
       "fullPath": "presets/4.3/vtx/fpvian_vtx_analog_removed.txt",
@@ -1063,6 +1075,459 @@
       "priority": 2,
       "force_options_review": true,
       "hidden": true
+    },
+    {
+      "fullPath": "presets/4.4/bnf/fpvian_bnf.txt",
+      "hash": "d414d2f793cd40409976e0256fca71f85d9d5b0abfbcd6bfd9607cbb688c79c6",
+      "title": "Quad Specific",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "bnf",
+        "quad"
+      ],
+      "author": "FPVian",
+      "priority": 6,
+      "force_options_review": true
+    },
+    {
+      "fullPath": "presets/4.4/filters/fpvian_filters.txt",
+      "hash": "4e29a82d88a3e2e94fce488b9b65b2f3099ff273998c2902b90f1bfcae2bf9a3",
+      "title": "Filters",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Filters"
+      ],
+      "author": "FPVian",
+      "force_options_review": true,
+      "priority": 3
+    },
+    {
+      "fullPath": "presets/4.4/filters/fpvian_filters_clean.txt",
+      "hash": "4c2b51c9e59f47bda556eda4c425ff3495ccc8dbfdc8f9202a8c88ae12fb5d58",
+      "title": "FPVian Filters Clean (Freestyle)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "Filters"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.4/filters/fpvian_filters_noisy.txt",
+      "hash": "db7dfa616d1849d3f56d87a669c19a8b045369f01a45cc2f0ba5c43b13a4485c",
+      "title": "FPVian Filters Noisy",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "Filters"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.4/filters/fpvian_filters_very_clean.txt",
+      "hash": "df14e2abddda3f4aef03599fbc6a751db2c811797965be456ac28486f6d734fd",
+      "title": "FPVian Filters Very Clean (Racing)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "Filters",
+        "Racing"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.4/filters/fpvian_filters_very_noisy.txt",
+      "hash": "890ae21f341fdc86709b954e6f6ad81d6fe7120ab9403fddcae29dce7a2e6161",
+      "title": "FPVian Filters Very Noisy (Long Range)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "Filters",
+        "Long Range"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.4/leds/fpvian_leds.txt",
+      "hash": "d39bcedeb9785a4990a2b9fce021e828dfb02bb2960d84db1a081af39fa2d98f",
+      "title": "LEDS",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "LEDS",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "LEDS"
+      ],
+      "author": "FPVian",
+      "force_options_review": true,
+      "priority": 1
+    },
+    {
+      "fullPath": "presets/4.4/modes/fpvian_modes.txt",
+      "hash": "2c82e3a12bcb4e7eb257c5f3be9b5ef51729eca3a551e3362c192dd9dd2f65e2",
+      "title": "Modes",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "MODES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Modes"
+      ],
+      "author": "FPVian",
+      "force_options_review": true,
+      "priority": 3
+    },
+    {
+      "fullPath": "presets/4.4/osd/fpvian_osd.txt",
+      "hash": "985d4efe8d5bd03169133e7bcf4337d4edc9e92dea6848910364e8017afa813d",
+      "title": "OSD",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "OSD"
+      ],
+      "author": "FPVian",
+      "force_options_review": true,
+      "priority": 3
+    },
+    {
+      "fullPath": "presets/4.4/osd/fpvian_osd_analog.txt",
+      "hash": "0cfec39b57316459b477e41b413990bbcd9427320c70dc31a02cd9e934616718",
+      "title": "FPVian OSD Analog",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "OSD",
+        "Analog"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/fpvian_osd_dji.txt",
+      "hash": "817492dbc830af8b232819f467e3a133097a946a289533647a078671ee407877",
+      "title": "FPVian OSD DJI",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "OSD",
+        "DJI"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/fpvian_osd_dji_long_range.txt",
+      "hash": "76ee87ac4df997f58b4958188f252e90357feb9320912a2a5265d17e4f41a1cc",
+      "title": "FPVian OSD DJI Long Range",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "OSD",
+        "DJI",
+        "Long",
+        "Range"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/fpvian_osd_hdzero.txt",
+      "hash": "4bcbc98c60a758e1d798f3733a43b8263eda3c0cb05570f138e37e971af34a2c",
+      "title": "FPVian OSD HDZero",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "OSD",
+        "HDZero"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/fpvian_osd_walksnail.txt",
+      "hash": "a697e3667900b589543e52be1ce62ccffe813770629db14183764151ff6e7978",
+      "title": "FPVian OSD HDZero",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "OSD",
+        "HDZero"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/fpvian_config.txt",
+      "hash": "a60b0fafb757abc7b3bc0cbf24386063b91f50592d3d9a2ccea1fd8c51938e0a",
+      "title": "Config",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "config"
+      ],
+      "author": "FPVian",
+      "force_options_review": true,
+      "priority": 5
+    },
+    {
+      "fullPath": "presets/4.4/other/fpvian_config_freestyle_racing.txt",
+      "hash": "4c58f471ddc03418de40583735d248248e043d2ed4279bf0829998ef31cf7c82",
+      "title": "FPVian Config Freestyle/Racing",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "config",
+        "freestyle",
+        "racing"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/fpvian_config_long_range.txt",
+      "hash": "390bcaac60e80996a00b8e6b17a1e30b015b179fa0e38cbc5fff2984c5bb011e",
+      "title": "FPVian Config Long Range",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "config",
+        "long range"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/fpvian_config_whoop.txt",
+      "hash": "16519c602f976890e2db93b4e06ae7f7d6895a744c9b4a0c5139b338de7e95f3",
+      "title": "FPVian Config Whoop",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "config",
+        "long range"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/rates/fpvian_rates.txt",
+      "hash": "3dbd562ac20684c6c5b0ea907b8b6ab39ac843ecc2f4a0ce02b47970f93fb231",
+      "title": "Rates",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Rates"
+      ],
+      "author": "FPVian",
+      "force_options_review": true,
+      "priority": 3
+    },
+    {
+      "fullPath": "presets/4.4/rc_link/fpvian_rc_link.txt",
+      "hash": "730165f5343855d6312034dd11d1068d955d7bc7e53f46142d1be6a1f14dd657",
+      "title": "RC Link",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RC",
+        "Link"
+      ],
+      "author": "FPVian",
+      "force_options_review": true,
+      "priority": 3
+    },
+    {
+      "fullPath": "presets/4.4/tune/fpvian_tune.txt",
+      "hash": "5faadb088352a88ae231242d42ecee95d6c3bf76fc6dcc81643963e14344f03e",
+      "title": "Tune",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Tune"
+      ],
+      "author": "FPVian",
+      "force_options_review": true,
+      "priority": 4
+    },
+    {
+      "fullPath": "presets/4.4/tune/fpvian_tune_freestyle.txt",
+      "hash": "1ccf8017cff7d042c49e0b31d208f13f629af22ba32b30e23aed2cdb98fe1b36",
+      "title": "FPVian Freestyle Tune",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "Tune",
+        "Freestyle"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/tune/fpvian_tune_long_range.txt",
+      "hash": "29faf235bd06e29ec92424254a6742a784207976fa55841699e2a32b29c8bdfc",
+      "title": "FPVian Long Range Tune",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "Tune",
+        "Long Range"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/tune/fpvian_tune_racing.txt",
+      "hash": "596bc644f470a8c377437b8775a9922217713df7aeb10696c1c9994a3e803ecf",
+      "title": "FPVian Racing Tune",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "Tune",
+        "Racing"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/tune/fpvian_tune_whoops.txt",
+      "hash": "20591f2c0b91ab9901e4a7b3ecc562478f7a0fa515bb39a7ce24ec8c5f44433e",
+      "title": "FPVian Whoop Tune",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVian",
+        "Tune",
+        "Whoops"
+      ],
+      "author": "FPVian",
+      "hidden": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/vtx/fpvian_vtx.txt",
+      "hash": "36bd4b1f22180bc4e298dd7a0aebcbf71c46692ece24c56deb6c98be9cad03ee",
+      "title": "VTX",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "VTX",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "vtx",
+        "analog",
+        "HDzero"
+      ],
+      "author": "FPVian",
+      "priority": 2,
+      "force_options_review": true
     }
   ]
 }
