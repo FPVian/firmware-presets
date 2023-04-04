@@ -1078,7 +1078,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/fpvian_bnf.txt",
-      "hash": "ae72778b6506dd06aecea827894a095d5a32db21f6f99e89708ba95cd0f1d897",
+      "hash": "a4b57cb9364c709f1182aaab805702499e9dc0e81db9cb12aa659c43c70a8dca",
       "title": "Quad Specific",
       "firmware_version": [
         "4.4"
@@ -1285,7 +1285,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/fpvian_osd_hdzero.txt",
-      "hash": "9ac052b47243440f17c2756e56a541cbc01c9f25927281a528dfaf1024780b82",
+      "hash": "4bcbc98c60a758e1d798f3733a43b8263eda3c0cb05570f138e37e971af34a2c",
       "title": "FPVian OSD HDZero",
       "firmware_version": [
         "4.4"
@@ -1495,7 +1495,7 @@
     },
     {
       "fullPath": "presets/4.4/vtx/fpvian_vtx.txt",
-      "hash": "de1a67b509cb017bce1698948dd1eb122cc4d89b9169ce2e2bf7221bd585a8d6",
+      "hash": "36bd4b1f22180bc4e298dd7a0aebcbf71c46692ece24c56deb6c98be9cad03ee",
       "title": "VTX",
       "firmware_version": [
         "4.4"

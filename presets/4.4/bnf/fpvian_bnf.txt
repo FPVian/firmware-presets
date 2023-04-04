@@ -115,7 +115,6 @@ serial 5 1024 115200 57600 0 115200
 
 #$ OPTION BEGIN (UNCHECKED): Switchback Red
 # Filter Setting: Very Noisy
-# VTX is HDZero Race v2
 set craft_name = Switchback Red
 set motor_output_reordering = 1,0,3,2,4,5,6,7
 # serial
