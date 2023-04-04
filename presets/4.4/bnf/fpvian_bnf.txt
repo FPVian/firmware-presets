@@ -29,17 +29,12 @@ serial 5 0 115200 57600 0 115200
 # Filter Setting: Clean
 set craft_name = Glide Red
 set align_board_pitch = 180
+set motor_output_reordering = 1,0,3,2,4,5,6,7
 # serial
 serial 1 64 115200 57600 0 115200
-serial 3 1 115200 57600 0 115200
+serial 3 131073 115200 57600 0 115200
 serial 4 0 115200 57600 0 115200
 serial 5 0 115200 57600 0 115200
-set displayport_msp_serial = 3
-# resource
-resource MOTOR 2 B06
-resource MOTOR 1 B07
-resource MOTOR 4 B08
-resource MOTOR 3 B09
 #$ OPTION END
 
 
@@ -47,17 +42,12 @@ resource MOTOR 3 B09
 # Filter Setting: Clean
 set craft_name = Glide Blue
 set align_board_yaw = 180
+set motor_output_reordering = 3,2,1,0,4,5,6,7
 # serial
 serial 1 64 115200 57600 0 115200
-serial 3 1 115200 57600 0 115200
+serial 3 131073 115200 57600 0 115200
 serial 4 0 115200 57600 0 115200
 serial 5 0 115200 57600 0 115200
-set displayport_msp_serial = 3
-# resource
-resource MOTOR 1 B09
-resource MOTOR 2 B08
-resource MOTOR 3 B07
-resource MOTOR 4 B06
 #$ OPTION END
 
 
@@ -69,7 +59,7 @@ set motor_output_reordering = 3,2,1,0,4,5,6,7
 # serial
 serial 1 64 115200 57600 0 115200
 serial 4 0 115200 57600 0 115200
-set displayport_msp_serial = 5
+serial 5 131073 115200 57600 0 115200
 #$ OPTION END
 
 
@@ -78,13 +68,7 @@ set displayport_msp_serial = 5
 set craft_name = Apex
 set align_board_yaw = 180
 # serial
-serial 1 1 115200 57600 0 115200
-set displayport_msp_serial = 1
-# resource
-resource MOTOR 1 B04
-resource MOTOR 2 B05
-resource MOTOR 3 B00
-resource MOTOR 4 B01
+serial 1 131073 115200 57600 0 115200
 
 set yaw_lowpass_hz = 60
 #$ OPTION END
@@ -140,3 +124,4 @@ serial 1 2048 115200 57600 0 115200
 
 
 #$ OPTION_GROUP END
+

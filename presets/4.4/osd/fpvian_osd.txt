@@ -26,5 +26,9 @@
 #$ INCLUDE: presets/4.4/osd/fpvian_osd_hdzero.txt
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): Walksnail
+#$ INCLUDE: presets/4.4/osd/fpvian_osd_walksnail.txt
+#$ OPTION END
+
 #$ OPTION_GROUP END
 
