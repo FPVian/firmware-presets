@@ -10,21 +10,19 @@
 
 # START DJI PRESETS
 
-# set vcd_video_system = HD
-# set osd_canvas_width = 53
-# set osd_canvas_height = 20
-# set displayport_msp_fonts = 0,1,2,3
+set vcd_video_system = HD
+set osd_canvas_width = 53
+set osd_canvas_height = 20
+set displayport_msp_fonts = 0,1,2,3
 set osd_displayport_device = MSP
-set vcd_video_system = PAL
-set osd_canvas_height = 16
 
 # OSD
-set osd_link_quality_pos = 14836
-set osd_rssi_dbm_pos = 14831
-set osd_rsnr_pos = 14842
-set osd_warnings_pos = 14442
-set osd_avg_cell_voltage_pos = 14824
-set osd_flip_arrow_pos = 14830
+set osd_link_quality_pos = 15969
+set osd_rssi_dbm_pos = 14971
+set osd_rsnr_pos = 15976
+set osd_warnings_pos = 14517
+set osd_avg_cell_voltage_pos = 14962
+set osd_flip_arrow_pos = 14969
 
 set osd_stat_bitmask = 42086564
 set osd_warn_bitmask = 171903
