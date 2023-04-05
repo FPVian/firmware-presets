@@ -25,10 +25,9 @@ set osd_warnings_pos = 14416
 set osd_avg_cell_voltage_pos = 14798
 set osd_flip_arrow_pos = 14805
 
-set osd_stat_bitmask = 42086564
-set osd_warn_bitmask = 171903
+set osd_stat_bitmask = 8532132
+set osd_warn_bitmask = 40831
 
-set osd_rsnr_alarm = 2
 set osd_rssi_dbm_alarm = -105
 
 

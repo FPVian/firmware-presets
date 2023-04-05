@@ -43,7 +43,7 @@ set osd_stat_bitmask = 42348724
 set osd_warn_bitmask = 171903
 
 set osd_tim2 = 2049
-set osd_rsnr_alarm = 4
+set osd_rsnr_alarm = 1
 set osd_rssi_dbm_alarm = -114
 set osd_cap_alarm = 5000
 
