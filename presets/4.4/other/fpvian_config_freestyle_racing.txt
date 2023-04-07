@@ -44,7 +44,7 @@ beacon RX_SET
 
 
 # BATTERY TAB
-set vbat_warning_cell_voltage = 340
+set vbat_warning_cell_voltage = 350
 
 
 #MOTORS TAB
