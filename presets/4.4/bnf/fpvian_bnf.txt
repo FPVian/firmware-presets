@@ -122,6 +122,18 @@ serial 1 2048 115200 57600 0 115200
 #$ OPTION END
 
 
+#$ OPTION BEGIN (UNCHECKED): Moblite7_HDZERO
+# Filter Setting: Noisy
+set motor_poles = 12
+feature -RX_SERIAL
+feature RX_SPI
+set craft_name = Moblite7_HDZERO
+set expresslrs_uid = 234,80,100,128,17,19
+# serial
+serial 1 131073 115200 57600 0 115200
+#$ OPTION END
+
+
 
 #$ OPTION_GROUP END
 
