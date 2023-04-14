@@ -111,6 +111,8 @@ serial 1 131073 115200 57600 0 115200
 # VTX is Happymodel Diamond F4 OPENVTX
 set align_board_yaw = 90
 set motor_poles = 12
+set thr_mid = 100
+set thr_expo = 50
 set pid_process_denom = 1
 feature -RX_SERIAL
 feature RX_SPI
