@@ -12,7 +12,7 @@
 
 set dyn_idle_min_rpm = 65
 set tpa_mode = PD
-b
+
 set level_limit = 75
 
 # PIDS
