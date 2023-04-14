@@ -8,15 +8,11 @@
 #$ HIDDEN: true
 
 
-#Try set mixer_type = DYNAMIC
-
 #START WHOOP PRESETS
 
 set dyn_idle_min_rpm = 65
 set tpa_mode = PD
 
-set thr_mid = 100
-set thr_expo = 50
 set level_limit = 75
 
 # PIDS

@@ -1078,7 +1078,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/fpvian_bnf.txt",
-      "hash": "d414d2f793cd40409976e0256fca71f85d9d5b0abfbcd6bfd9607cbb688c79c6",
+      "hash": "d40e0e93fff03fce08c33ecc82c433058246fb2609b7d736f3e268c2d3a03996",
       "title": "Quad Specific",
       "firmware_version": [
         "4.4"
@@ -1495,7 +1495,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/fpvian_tune_whoops.txt",
-      "hash": "20591f2c0b91ab9901e4a7b3ecc562478f7a0fa515bb39a7ce24ec8c5f44433e",
+      "hash": "3eadd4e63603010f109188d0561a5870b2330ea78512053d73042bd7da9b26c5",
       "title": "FPVian Whoop Tune",
       "firmware_version": [
         "4.4"
